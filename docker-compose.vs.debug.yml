@@ -1,0 +1,57 @@
+version: '3.4'
+
+services:
+  eva.sms.api:
+    image: eva/sms.api
+    build:
+      context: .
+      dockerfile: SMS.Api/Dockerfile
+      target: base
+    volumes:
+      - C:\Teste:/app/bin/Debug/netcoreapp2.1/App_Config #DEVELOPMENT PATH - HOST PATH:APP PATH
+#    networks:
+#      caseplatform
+#    deploy:
+#      resources:
+#        reservations:
+#          cpus: '1'
+#          memory: 1024M
+
+  eva.sms.servico.dispatcher:
+    image: eva/sms.servico.dispatcher
+    build:
+      context: .
+      dockerfile: SMS.Servico.Dispatcher/Dockerfile
+      target: base
+    volumes:
+      - C:\Teste:/app/bin/Debug/netcoreapp2.1/App_Config #DEVELOPMENT PATH - HOST PATH:APP PATH
+#    networks:
+#      caseplatform
+#    deploy:
+#      resources:
+#        reservations:
+#          cpus: '1'
+#          memory: 1024M
+
+#  retencao.api:
+#    image: case/retencaoapi
+#    build:
+#      context: .
+#      dockerfile: MotorFinanceiro.Retencao.API/Dockerfile
+#      target: base
+#    volumes:
+#      - C:\Teste:/app/bin/Debug/netcoreapp2.1/App_Config #DEVELOPMENT PATH - HOST PATH:APP PATH
+#    networks:
+#      caseplatform
+#    deploy:
+#      resources:
+#        reservations:
+#          cpus: '1'
+#          memory: 1024M
+
+  
+
+#networks: 
+#    caseplatform:
+#      driver: overlay
+

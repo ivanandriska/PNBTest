@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+#  retencao.servico:
+#    image: case/retencaoservico
+#    build:
+#      context: .
+#      dockerfile: Retencao.Servico/Dockerfile
+#      target: final
+
+#  retencao.api:
+#    image: case/retencaoapi
+#    build:
+#      context: .
+#      dockerfile: MotorFinanceiro.Retencao.API/Dockerfile
+#      target: final
+
+  eva.sms.api:
+    image: eva/sms.api
+    build:
+      context: .
+      dockerfile: SMS.Api/Dockerfile
+      target: final
+
+  eva.sms.servico.dispatcher:
+    image: eva/sms.servico.dispatcher
+    build:
+      context: .
+      dockerfile: SMS.Servico.Dispatcher/Dockerfile
+      target: final
+

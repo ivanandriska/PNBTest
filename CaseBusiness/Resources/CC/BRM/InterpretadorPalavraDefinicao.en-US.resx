@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACQUIRER__descricao" xml:space="preserve">
+    <value>Acquirer</value>
+  </data>
+  <data name="ACQUIRER__descritivohelp" xml:space="preserve">
+    <value>Contains Acquirer</value>
+  </data>
+  <data name="BCO_AGENCIA_NUMERO__descricao" xml:space="preserve">
+    <value>Bank Branch Number</value>
+  </data>
+  <data name="BCO_AGENCIA_NUMERO__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Branch Number</value>
+  </data>
+  <data name="BCO_AGENCIA_DIGITO__descricao" xml:space="preserve">
+    <value>Bank Branch Digit</value>
+  </data>
+  <data name="BCO_AGENCIA_DIGITO__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Branch Digit</value>
+  </data>
+  <data name="NEURALRDEXECRET__descricao" xml:space="preserve">
+    <value>!!! ID Execução de Rede Neural</value>
+  </data>
+  <data name="NEURALRDEXECRET__descritivohelp" xml:space="preserve">
+    <value>!!! Contains o retorno de execução de Rede Neural.
+São permitidos os seguintes valores:
+"NAOEXECUTADA"
+"ABAIXOFAIXA"
+"DENTROFAIXA"
+"ACIMAFAIXA"
+"NAOLOCALIZADA"
+"INATIVA"</value>
+  </data>
+  <data name="CARTAO__descricao" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="CARTAO__descritivohelp" xml:space="preserve">
+    <value>Contains Card Number</value>
+  </data>
+  <data name="BCO_AGENCIACONTA_DIGITOVF__descricao" xml:space="preserve">
+    <value>Bank Branch Account Check Number</value>
+  </data>
+  <data name="BCO_AGENCIACONTA_DIGITOVF__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Branch Account Check Number</value>
+  </data>
+  <data name="BCO_CODIGO__descricao" xml:space="preserve">
+    <value>Bank Code</value>
+  </data>
+  <data name="BCO_CODIGO__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Code</value>
+  </data>
+  <data name="BCO_CONTA_NUMERO__descricao" xml:space="preserve">
+    <value>Bank Account Number</value>
+  </data>
+  <data name="BCO_CONTA_NUMERO__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Account Number</value>
+  </data>
+  <data name="BCO_CONTA_DIGITO__descricao" xml:space="preserve">
+    <value>Bank Account Check Number</value>
+  </data>
+  <data name="BCO_CONTA_DIGITO__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Account Check Number</value>
+  </data>
+  <data name="BCO_TIPO_PAGAMENTO__descricao" xml:space="preserve">
+    <value>Bank Payment Type</value>
+  </data>
+  <data name="BCO_TIPO_PAGAMENTO__descritivohelp" xml:space="preserve">
+    <value>Contains Bank Payment Type</value>
+  </data>
+  <data name="CEP_CLIENTE__descricao" xml:space="preserve">
+    <value>Customer ZIP</value>
+  </data>
+  <data name="CEP_CLIENTE__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP</value>
+  </data>
+  <data name="CEP_TRANS_ANT__descricao" xml:space="preserve">
+    <value>!!! Merchant ZIP 'Anterior'</value>
+  </data>
+  <data name="CEP_TRANS_ANT__descritivohelp" xml:space="preserve">
+    <value>Após ser calculado, contém o CEP do Estabelecimento da transação 'Anterior' durante a análise da transação corrente [BR]</value>
+  </data>
+  <data name="CEP_TRANSACAO__descricao" xml:space="preserve">
+    <value>Merchant ZIP</value>
+  </data>
+  <data name="CEP_TRANSACAO__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP of the current transaction</value>
+  </data>
+  <data name="CEP_REG__descricao" xml:space="preserve">
+    <value>Merchant ZIP - Região [BR]</value>
+  </data>
+  <data name="CEP_REG__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP - Região [BR]</value>
+  </data>
+  <data name="CEP_SREG__descricao" xml:space="preserve">
+    <value>Merchant ZIP - Sub-Região [BR]</value>
+  </data>
+  <data name="CEP_SREG__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP - Sub-Região [BR]</value>
+  </data>
+  <data name="CEP_SET__descricao" xml:space="preserve">
+    <value>Merchant ZIP - Setor [BR]</value>
+  </data>
+  <data name="CEP_SET__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP - Setor [BR]</value>
+  </data>
+  <data name="CEP_SSET__descricao" xml:space="preserve">
+    <value>Merchant ZIP - Subsetor [BR]</value>
+  </data>
+  <data name="CEP_SSET__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP - Subsetor [BR]</value>
+  </data>
+  <data name="CEP_DSSET__descricao" xml:space="preserve">
+    <value>Merchant ZIP - Divisão de Subsetor [BR]</value>
+  </data>
+  <data name="CEP_DSSET__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP - Divisão de Subsetor [BR]</value>
+  </data>
+  <data name="CEP_DIST__descricao" xml:space="preserve">
+    <value>Merchant ZIP - Ident. Distribuição [BR]</value>
+  </data>
+  <data name="CEP_DIST__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant ZIP - Ident. Distribuição [BR]</value>
+  </data>
+  <data name="CEPCLI_REG__descricao" xml:space="preserve">
+    <value>Customer ZIP - Região [BR]</value>
+  </data>
+  <data name="CEPCLI_REG__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP - Região [BR]</value>
+  </data>
+  <data name="CEPCLI_SREG__descricao" xml:space="preserve">
+    <value>Customer ZIP - Sub-Região [BR]</value>
+  </data>
+  <data name="CEPCLI_SREG__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP - Sub-Região [BR]</value>
+  </data>
+  <data name="CEPCLI_SET__descricao" xml:space="preserve">
+    <value>Customer ZIP - Setor [BR]</value>
+  </data>
+  <data name="CEPCLI_SET__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP - Setor [BR]</value>
+  </data>
+  <data name="CEPCLI_SSET__descricao" xml:space="preserve">
+    <value>Customer ZIP - Subsetor [BR]</value>
+  </data>
+  <data name="CEPCLI_SSET__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP - Subsetor [BR]</value>
+  </data>
+  <data name="CEPCLI_DSSET__descricao" xml:space="preserve">
+    <value>Customer ZIP - Divisor de Subsetor [BR]</value>
+  </data>
+  <data name="CEPCLI_DSSET__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP - Divisor de Subsetor [BR]</value>
+  </data>
+  <data name="CEPCLI_DIST__descricao" xml:space="preserve">
+    <value>Customer ZIP - Ident. Distribuição [BR]</value>
+  </data>
+  <data name="CEPCLI_DIST__descritivohelp" xml:space="preserve">
+    <value>Contains Customer ZIP - Ident. Distribuição [BR]</value>
+  </data>
+  <data name="CIDADE__descricao" xml:space="preserve">
+    <value>Merchant City</value>
+  </data>
+  <data name="CIDADE__descritivohelp" xml:space="preserve">
+    <value>Contains the Merchant City of current transaction</value>
+  </data>
+  <data name="CIDADE_CLI__descricao" xml:space="preserve">
+    <value>Customer Home Address City</value>
+  </data>
+  <data name="CIDADE_CLI__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Home Address City</value>
+  </data>
+  <data name="CLI_NUMERO__descricao" xml:space="preserve">
+    <value>Customer Number</value>
+  </data>
+  <data name="CLI_NUMERO__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Number</value>
+  </data>
+  <data name="CLI_TIPO__descricao" xml:space="preserve">
+    <value>!!! Tipo Pessoa do Cliente</value>
+  </data>
+  <data name="CLI_TIPO__descritivohelp" xml:space="preserve">
+    <value>!!! Contains o Tipo Pessoa do Cliente</value>
+  </data>
+  <data name="CLI_CPFCNPJ__descricao" xml:space="preserve">
+    <value>CPF/CNPJ do Cliente [BR]</value>
+  </data>
+  <data name="CLI_CPFCNPJ__descritivohelp" xml:space="preserve">
+    <value>Contains CPF/CNPJ do Cliente [BR]</value>
+  </data>
+  <data name="CLI_SEXO__descricao" xml:space="preserve">
+    <value>Customer Gender</value>
+  </data>
+  <data name="CLI_SEXO__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Gender</value>
+  </data>
+  <data name="CLI_DATAALT_CELULAR__descricao" xml:space="preserve">
+    <value>Customer Celular Fone Update Date</value>
+  </data>
+  <data name="CLI_DATAALT_CELULAR__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Celular Fone Update Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="CLI_ENDCOM_LOGR__descricao" xml:space="preserve">
+    <value>Customer Business Address Street Name</value>
+  </data>
+  <data name="CLI_ENDCOM_LOGR__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address Street Name</value>
+  </data>
+  <data name="CLI_ENDCOM_NUMERO__descricao" xml:space="preserve">
+    <value>Customer Business Address Street Number</value>
+  </data>
+  <data name="CLI_ENDCOM_NUMERO__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address Street Number</value>
+  </data>
+  <data name="CLI_ENDCOM_COMPL__descricao" xml:space="preserve">
+    <value>Customer Business Address Complement</value>
+  </data>
+  <data name="CLI_ENDCOM_COMPL__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address Complement</value>
+  </data>
+  <data name="CLI_ENDCOM_BAIRRO__descricao" xml:space="preserve">
+    <value>Customer Business Address Neighborhood</value>
+  </data>
+  <data name="CLI_ENDCOM_BAIRRO__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address Neighborhood</value>
+  </data>
+  <data name="CLI_ENDCOM_CEP__descricao" xml:space="preserve">
+    <value>Customer Business Address ZIP Code</value>
+  </data>
+  <data name="CLI_ENDCOM_CEP__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address ZIP Code</value>
+  </data>
+  <data name="CLI_ENDCOM_CIDADE__descricao" xml:space="preserve">
+    <value>Customer Business Address City</value>
+  </data>
+  <data name="CLI_ENDCOM_CIDADE__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address City</value>
+  </data>
+  <data name="CLI_ENDCOM_UF__descricao" xml:space="preserve">
+    <value>Customer Business Address State</value>
+  </data>
+  <data name="CLI_ENDCOM_UF__descritivohelp" xml:space="preserve">
+    <value>Contém Customer Business Address State</value>
+  </data>
+  <data name="CLI_ENDCOM_PAIS__descricao" xml:space="preserve">
+    <value>Customer Business Address Country</value>
+  </data>
+  <data name="CLI_ENDCOM_PAIS__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Business Address Country</value>
+  </data>
+  <data name="CLI_ENDRES_LOGR__descricao" xml:space="preserve">
+    <value>Customer Home Address Street Name</value>
+  </data>
+  <data name="CLI_ENDRES_LOGR__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Home Address Street Name</value>
+  </data>
+  <data name="CLI_ENDRES_NUMERO__descricao" xml:space="preserve">
+    <value>Customer Home Address Street Number</value>
+  </data>
+  <data name="CLI_ENDRES_NUMERO__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Home Address Street Number</value>
+  </data>
+  <data name="CLI_ENDRES_COMPL__descricao" xml:space="preserve">
+    <value>Customer Home Address Complement</value>
+  </data>
+  <data name="CLI_ENDRES_COMPL__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Home Address Complement</value>
+  </data>
+  <data name="CLI_ENDRES_BAIRRO__descricao" xml:space="preserve">
+    <value>Customer Home Address Neighborhood</value>
+  </data>
+  <data name="CLI_ENDRES_BAIRRO__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Home Address Neighborhood</value>
+  </data>
+  <data name="CLI_ENDRES_PAIS__descricao" xml:space="preserve">
+    <value>Customer Home Address Country</value>
+  </data>
+  <data name="CLI_ENDRES_PAIS__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Home Address Country</value>
+  </data>
+  <data name="CLI_ENDRES_GEOLOCAL_LATITUDE__descricao" xml:space="preserve">
+    <value>Geolocation Latitude of the Customer Home Address</value>
+  </data>
+  <data name="CLI_ENDRES_GEOLOCAL_LATITUDE__descritivohelp" xml:space="preserve">
+    <value>Contains Geolocation Latitude of the Customer Home Address</value>
+  </data>
+  <data name="CLI_ENDRES_GEOLOCAL_LONGITUDE__descricao" xml:space="preserve">
+    <value>Geolocation Longitude of the Customer Home Address</value>
+  </data>
+  <data name="CLI_ENDRES_GEOLOCAL_LONGITUDE__descritivohelp" xml:space="preserve">
+    <value>Contains Geolocation Longitude of the Customer Home Address</value>
+  </data>
+  <data name="CLI_CELULAR__descricao" xml:space="preserve">
+    <value>Customer Celular Fone</value>
+  </data>
+  <data name="CLI_CELULAR__descritivohelp" xml:space="preserve">
+    <value>Contains Customer Celular Fone</value>
+  </data>
+  <data name="CLIENTE_VIP__descricao" xml:space="preserve">
+    <value>Flag Customer Vip</value>
+  </data>
+  <data name="CLIENTE_VIP__descritivohelp" xml:space="preserve">
+    <value>Contains Flag Customer Vip</value>
+  </data>
+  <data name="CTA_DATA_ABERTURA__descricao" xml:space="preserve">
+    <value>Account Open Date</value>
+  </data>
+  <data name="CTA_DATA_ABERTURA__descritivohelp" xml:space="preserve">
+    <value>Contains Account Open Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="CTA_STATUS__descricao" xml:space="preserve">
+    <value>Account Status</value>
+  </data>
+  <data name="CTA_STATUS__descritivohelp" xml:space="preserve">
+    <value>Contains Account Status</value>
+  </data>
+  <data name="CTA_DATA_DESBLOQ__descricao" xml:space="preserve">
+    <value>Account Unblock Date</value>
+  </data>
+  <data name="CTA_DATA_DESBLOQ__descritivohelp" xml:space="preserve">
+    <value>Contains Account Unblock Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="CTA_HORA_DESBLOQ__descritivohelp" xml:space="preserve">
+    <value>Contains Account Unblock Time [ hhmmss ]</value>
+  </data>
+  <data name="CRT_LOGO__descricao" xml:space="preserve">
+    <value>Card Logo</value>
+  </data>
+  <data name="CRT_LOGO__descritivohelp" xml:space="preserve">
+    <value>Contains Card Logo</value>
+  </data>
+  <data name="CRT_DATA_VALID__descricao" xml:space="preserve">
+    <value>Card Due Date (REG003)</value>
+  </data>
+  <data name="CRT_DATA_VALID__descritivohelp" xml:space="preserve">
+    <value>Contains Card Due Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="CRT_LIMITE_COMPRA__descritivohelp" xml:space="preserve">
+    <value>Contains Purchasing Avaliable Limit of the Card</value>
+  </data>
+  <data name="CRT_LIMITE_SAQUE__descritivohelp" xml:space="preserve">
+    <value>Contains Withdraw Limit of the Card</value>
+  </data>
+  <data name="CRT_DATA_EMBOSSING__descricao" xml:space="preserve">
+    <value>Card Embossing Date</value>
+  </data>
+  <data name="CRT_DATA_EMBOSSING__descritivohelp" xml:space="preserve">
+    <value>Contains Card Embossing Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="CRT_NUMEROAR__descricao" xml:space="preserve">
+    <value>Número AR do Cartão [BR]</value>
+  </data>
+  <data name="CRT_NUMEROAR__descritivohelp" xml:space="preserve">
+    <value>Contains Número AR do Cartão [BR]</value>
+  </data>
+  <data name="CRT_TIPO_EMISSAO__descricao" xml:space="preserve">
+    <value>Card Issue Type</value>
+  </data>
+  <data name="CRT_TIPO_EMISSAO__descritivohelp" xml:space="preserve">
+    <value>Contains Card Issue Type</value>
+  </data>
+  <data name="CRT_TIPO__descricao" xml:space="preserve">
+    <value>Card Type</value>
+  </data>
+  <data name="CRT_TIPO__descritivohelp" xml:space="preserve">
+    <value>Contains Card Type</value>
+  </data>
+  <data name="DATA_CORRENTE__descritivohelp" xml:space="preserve">
+    <value>Contains BRM Application Date(Now .net) [ ddmmaaaa ]</value>
+  </data>
+  <data name="DATA__descritivohelp" xml:space="preserve">
+    <value>Contains Transaction Date</value>
+  </data>
+  <data name="DATA_DESBLOQ__descricao" xml:space="preserve">
+    <value>Card Unblock Date</value>
+  </data>
+  <data name="DATA_DESBLOQ__descritivohelp" xml:space="preserve">
+    <value>Contains Card Unblock Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="DATA_EMISSAO__descricao" xml:space="preserve">
+    <value>Card Issue Date</value>
+  </data>
+  <data name="DATA_EMISSAO__descritivohelp" xml:space="preserve">
+    <value>Contains Card Issue Date [ ddmmaaaa ]</value>
+  </data>
+  <data name="DATA_ULT_ALTCAD__descricao" xml:space="preserve">
+    <value>Registration Date Update</value>
+  </data>
+  <data name="DATA_ULT_ALTCAD__descritivohelp" xml:space="preserve">
+    <value>Contains Registration Date Update [ ddmmaaaa ]</value>
+  </data>
+  <data name="DEVICE_ID1__descricao" xml:space="preserve">
+    <value>Device ID1</value>
+  </data>
+  <data name="DEVICE_ID1__descritivohelp" xml:space="preserve">
+    <value>Contains Device ID1</value>
+  </data>
+  <data name="DEVICE_ID2__descricao" xml:space="preserve">
+    <value>Device ID2</value>
+  </data>
+  <data name="DEVICE_ID2__descritivohelp" xml:space="preserve">
+    <value>Contains Device ID2</value>
+  </data>
+  <data name="DEVICE_ID3__descricao" xml:space="preserve">
+    <value>Device ID3</value>
+  </data>
+  <data name="DEVICE_ID3__descritivohelp" xml:space="preserve">
+    <value>Contains Device ID3</value>
+  </data>
+  <data name="DEVICE_LANGUAGECODE__descricao" xml:space="preserve">
+    <value>Device Language</value>
+  </data>
+  <data name="DEVICE_LANGUAGECODE__descritivohelp" xml:space="preserve">
+    <value>Contains Device Language</value>
+  </data>
+  <data name="DEVICE_NUMBER__descricao" xml:space="preserve">
+    <value>Device Number</value>
+  </data>
+  <data name="DEVICE_NUMBER__descritivohelp" xml:space="preserve">
+    <value>Contains Device Number</value>
+  </data>
+  <data name="DEVICE_TYPE__descricao" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="DEVICE_TYPE__descritivohelp" xml:space="preserve">
+    <value>Contains Device Type</value>
+  </data>
+  <data name="DIAS_DESBLOQ__descritivohelp" xml:space="preserve">
+    <value>Number of days since unblock the card</value>
+  </data>
+  <data name="DIAS_EMISSAO__descritivohelp" xml:space="preserve">
+    <value>Number of days since issue the card</value>
+  </data>
+  <data name="DIAS_ULT_ALTCAD__descritivohelp" xml:space="preserve">
+    <value>!!! Resultado de um cálculo para identificar quantos dias decorreram desde a última alteração cadastral</value>
+  </data>
+  <data name="DTEXP_14__descricao" xml:space="preserve">
+    <value>Card Due Date (REG004)</value>
+  </data>
+  <data name="DTEXP_14__descritivohelp" xml:space="preserve">
+    <value>Contains Card Due Date</value>
+  </data>
+  <data name="ENTMOD__descricao" xml:space="preserve">
+    <value>POS Code</value>
+  </data>
+  <data name="ENTMOD__descritivohelp" xml:space="preserve">
+    <value>Contains POS Code</value>
+  </data>
+  <data name="ENTMOD_ANT__descricao" xml:space="preserve">
+    <value>!!! Código POS Transação 'Anterior'</value>
+  </data>
+  <data name="ENTMOD_ANT__descritivohelp" xml:space="preserve">
+    <value>!!! Após ser calculado, contém o Código POS Transação da transação Anterior', durante a análise da transação corrente.</value>
+  </data>
+  <data name="ESTABELEC__descricao" xml:space="preserve">
+    <value>Merchant Code</value>
+  </data>
+  <data name="ESTABELEC__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant Code</value>
+  </data>
+  <data name="ESTAB_ANT__descricao" xml:space="preserve">
+    <value>!!! Código Estabelecimento 'Anterior'</value>
+  </data>
+  <data name="ESTAB_ANT__descritivohelp" xml:space="preserve">
+    <value>!!! Após ser calculado, contém o Código do Estabelecimento da transação Anterior', durante a análise da transação corrente.</value>
+  </data>
+  <data name="ESTAB_NOME__descricao" xml:space="preserve">
+    <value>Merchant Name</value>
+  </data>
+  <data name="ESTAB_NOME__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant Name</value>
+  </data>
+  <data name="ENVIAMSG_GRUPO__descricao" xml:space="preserve">
+    <value>Group (ENVIA MSG Online Command)</value>
+  </data>
+  <data name="ENVIAMSG_GRUPO__descritivohelp" xml:space="preserve">
+    <value>Group (ENVIA MSG Online Command)</value>
+  </data>
+  <data name="ENVIAMSG_REGRA__descricao" xml:space="preserve">
+    <value>Rule (ENVIA MSG Online Command)</value>
+  </data>
+  <data name="ENVIAMSG_REGRA__descritivohelp" xml:space="preserve">
+    <value>Rule (ENVIA MSG Online Command)</value>
+  </data>
+  <data name="FG_1COMPRA__descricao" xml:space="preserve">
+    <value>Flag First Purchase of the Credit Card</value>
+  </data>
+  <data name="FG_1COMPRA__descritivohelp" xml:space="preserve">
+    <value>Flag First Purchase of the Credit Card</value>
+  </data>
+  <data name="FG_1PGTO__descricao" xml:space="preserve">
+    <value>Flag First Invoice Paid</value>
+  </data>
+  <data name="FG_1PGTO__descritivohelp" xml:space="preserve">
+    <value>Flag First Invoice Paid</value>
+  </data>
+  <data name="FG_TRANS_SUSP__descricao" xml:space="preserve">
+    <value>Flag Suspicious Transaction (analysis of another system or cadastral source)</value>
+  </data>
+  <data name="FG_TRANS_SUSP__descritivohelp" xml:space="preserve">
+    <value>Flag Suspicious Transaction (analysis of another system or cadastral source)</value>
+  </data>
+  <data name="GRUPO__descricao" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GRUPO__descritivohelp" xml:space="preserve">
+    <value>Contains Group from Card Range</value>
+  </data>
+  <data name="GEOLOCAL_DISTANCIACEP_TRANS_TRANSANT__descritivohelp" xml:space="preserve">
+    <value>!!! Resultado de um cálculo de Distância (em KM) entre o CEP do Estabelecimento da Transação e o CEP do Estabelecimento da Transação 'Anterior'</value>
+  </data>
+  <data name="GERACASE_GRUPO__descricao" xml:space="preserve">
+    <value>Group (GERA CASE Online Command)</value>
+  </data>
+  <data name="GERACASE_GRUPO__descritivohelp" xml:space="preserve">
+    <value>Group (GERA CASE Online Command)</value>
+  </data>
+  <data name="GERACASE_REGRA__descricao" xml:space="preserve">
+    <value>Rule (GERA CASE Online Command)</value>
+  </data>
+  <data name="GERACASE_REGRA__descritivohelp" xml:space="preserve">
+    <value>Rule (GERA CASE Online Command)</value>
+  </data>
+  <data name="GERABLOQ_GRUPO__descricao" xml:space="preserve">
+    <value>Group (GERA BLOQ Online Command)</value>
+  </data>
+  <data name="GERABLOQ_GRUPO__descritivohelp" xml:space="preserve">
+    <value>Group (GERA BLOQ Online Command)</value>
+  </data>
+  <data name="GERABLOQ_REGRA__descricao" xml:space="preserve">
+    <value>Rule (GERA BLOQ Online Command)</value>
+  </data>
+  <data name="GERABLOQ_REGRA__descritivohelp" xml:space="preserve">
+    <value>Rule (GERA BLOQ Online Command)</value>
+  </data>
+  <data name="GERADESBLOQ_GRUPO__descricao" xml:space="preserve">
+    <value>Group (GERA DESBLOQ Online Command)</value>
+  </data>
+  <data name="GERADESBLOQ_GRUPO__descritivohelp" xml:space="preserve">
+    <value>Group (GERA DESBLOQ Online Command)</value>
+  </data>
+  <data name="GERADESBLOQ_REGRA__descricao" xml:space="preserve">
+    <value>Rule (GERA DESBLOQ Online Command)</value>
+  </data>
+  <data name="GERADESBLOQ_REGRA__descritivohelp" xml:space="preserve">
+    <value>Rule (GERA DESBLOQ Online Command)</value>
+  </data>
+  <data name="HORA_DESBLOQ__descritivohelp" xml:space="preserve">
+    <value>Contains Card Unblock Time [ hhmmss ]</value>
+  </data>
+  <data name="HORA_EMISSAO__descritivohelp" xml:space="preserve">
+    <value>Contains Card Issue Time [ hhmmss ]</value>
+  </data>
+  <data name="HORA__descritivohelp" xml:space="preserve">
+    <value>Transaction Time [ hhmmss ]</value>
+  </data>
+  <data name="HRS_DESBLOQ__descritivohelp" xml:space="preserve">
+    <value>!!! Resultado de um cálculo para identificar quantas horas desde o desbloqueio de um plástico</value>
+  </data>
+  <data name="HRS_EMISSAO__descritivohelp" xml:space="preserve">
+    <value>!!! Resultado de um cálculo para identificar quantas horas desde a emissão do cartão</value>
+  </data>
+  <data name="IPADDRESS__descricao" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="IPADDRESS__descritivohelp" xml:space="preserve">
+    <value>Contains IP Address</value>
+  </data>
+  <data name="LIMITE_COMPRA__descricao" xml:space="preserve">
+    <value>Purchasing Avaliable Limit</value>
+  </data>
+  <data name="LIMITE_COMPRA__descritivohelp" xml:space="preserve">
+    <value>Contains Purchasing Avaliable Limit</value>
+  </data>
+  <data name="LIMITE_SAQUE__descricao" xml:space="preserve">
+    <value>Withdraw Limit</value>
+  </data>
+  <data name="LIMITE_SAQUE__descritivohelp" xml:space="preserve">
+    <value>Contains Withdraw Limit</value>
+  </data>
+  <data name="MOEDA_49__descricao" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="MOEDA_49__descritivohelp" xml:space="preserve">
+    <value>Contains Currency in the current transaction</value>
+  </data>
+  <data name="MSG_CLI_REQ__descricao" xml:space="preserve">
+    <value>!!! Comunicação Cliente Requisitada</value>
+  </data>
+  <data name="MSG_CLI_REQ__descritivohelp" xml:space="preserve">
+    <value>!!! Comunicação Cliente Requisitada</value>
+  </data>
+  <data name="NBR_TOKEN_ATIVO__descricao" xml:space="preserve">
+    <value>NBR Token Active</value>
+  </data>
+  <data name="NBR_TOKEN_ATIVO__descritivohelp" xml:space="preserve">
+    <value>Contains NBR Token Active</value>
+  </data>
+  <data name="NBR_TOKEN_INATI__descricao" xml:space="preserve">
+    <value>NBR Token Inactive</value>
+  </data>
+  <data name="NBR_TOKEN_INATI__descritivohelp" xml:space="preserve">
+    <value>Contains NBR Token Inactive</value>
+  </data>
+  <data name="NBR_TOKEN_SUSPE__descricao" xml:space="preserve">
+    <value>!!! NBR Token Susp.</value>
+  </data>
+  <data name="NBR_TOKEN_SUSPE__descritivohelp" xml:space="preserve">
+    <value>!!! Contains o NBR Token Susp.</value>
+  </data>
+  <data name="NEURAL_FAIXAINICIALRD__descricao" xml:space="preserve">
+    <value>Neural - Network - Range Begin</value>
+  </data>
+  <data name="NEURAL_FAIXAINICIALRD__descritivohelp" xml:space="preserve">
+    <value>Contains Neural - Network - Range Begin</value>
+  </data>
+  <data name="NEURAL_FAIXAFINALRD__descricao" xml:space="preserve">
+    <value>Neural - Network - Range End</value>
+  </data>
+  <data name="NEURAL_FAIXAFINALRD__descritivohelp" xml:space="preserve">
+    <value>Contains Neural - Network - Range End</value>
+  </data>
+  <data name="NEURAL_IDSCORE__descricao" xml:space="preserve">
+    <value>Neural - Score ID</value>
+  </data>
+  <data name="NEURAL_IDSCORE__descritivohelp" xml:space="preserve">
+    <value>Contains Neural - Score ID</value>
+  </data>
+  <data name="NEURALRDSCORE__descricao" xml:space="preserve">
+    <value>Neural Network - Score</value>
+  </data>
+  <data name="NEURALRDSCORE__descritivohelp" xml:space="preserve">
+    <value>Contains Neural Network - Score</value>
+  </data>
+  <data name="ORGANIZACAO__descricao" xml:space="preserve">
+    <value>??? Organization / Company</value>
+  </data>
+  <data name="ORGANIZACAO__descritivohelp" xml:space="preserve">
+    <value>??? Contains Organization / Company</value>
+  </data>
+  <data name="ORIGEM_SWITCHER__descricao" xml:space="preserve">
+    <value>Switcher Source</value>
+  </data>
+  <data name="ORIGEM_SWITCHER__descritivohelp" xml:space="preserve">
+    <value>Contains Switcher Source</value>
+  </data>
+  <data name="PAIS__descricao" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="PAIS__descritivohelp" xml:space="preserve">
+    <value>Contains Country of the current transaction</value>
+  </data>
+  <data name="PAN_SOURCE__descricao" xml:space="preserve">
+    <value>Pan Source</value>
+  </data>
+  <data name="PAN_SOURCE__descritivohelp" xml:space="preserve">
+    <value>Contains Pan Source</value>
+  </data>
+  <data name="PERCENTUAL__descritivohelp" xml:space="preserve">
+    <value>!!! Resultado de um cálculo percentual aplicado ao conteúdo da Constante</value>
+  </data>
+  <data name="PERIODOINICIO__descricao" xml:space="preserve">
+    <value>!!! Parâmetro do Comando TRSCONTAR Command Parameter - Período Início</value>
+  </data>
+  <data name="PERIODOINICIO__descritivohelp" xml:space="preserve">
+    <value>!!! Parâmetro do Comando TRSCONTAR: Informa o Inicío do Período de busca de Transações no passado. O Valor deve ser sempre Negativo.</value>
+  </data>
+  <data name="PERIODOTERMINO__descricao" xml:space="preserve">
+    <value>!!! TRSCONTAR Command Parameter - Período Término</value>
+  </data>
+  <data name="PERIODOTERMINO__descritivohelp" xml:space="preserve">
+    <value>!!! Parâmetro do Comando TRSCONTAR: Informa o Término do Período de busca de Transações no passado. O Valor deve ser sempre Negativo.</value>
+  </data>
+  <data name="RAMO__descricao" xml:space="preserve">
+    <value>MCC</value>
+  </data>
+  <data name="RAMO__descritivohelp" xml:space="preserve">
+    <value>MCC of the current transaction</value>
+  </data>
+  <data name="RAMO_ANT__descricao" xml:space="preserve">
+    <value>MCC 'Previous'</value>
+  </data>
+  <data name="RAMO_ANT__descritivohelp" xml:space="preserve">
+    <value>Contains MCC 'Previous'</value>
+  </data>
+  <data name="REASON_CODE__descricao" xml:space="preserve">
+    <value>Reason Code</value>
+  </data>
+  <data name="REASON_CODE__descritivohelp" xml:space="preserve">
+    <value>Contains Reason Code of the current transaction</value>
+  </data>
+  <data name="RESP_39__descricao" xml:space="preserve">
+    <value>Response Code</value>
+  </data>
+  <data name="RESP_39__descritivohelp" xml:space="preserve">
+    <value>Contains Response Code</value>
+  </data>
+  <data name="RESPONDAUTZ_GRUPO__descricao" xml:space="preserve">
+    <value>Group (RESPOND AUTZ Online Command)</value>
+  </data>
+  <data name="RESPONDAUTZ_GRUPO__descritivohelp" xml:space="preserve">
+    <value>Group (RESPOND AUTZ Online Command)</value>
+  </data>
+  <data name="RESPONDAUTZ_REGRA__descricao" xml:space="preserve">
+    <value>Rule (RESPOND AUTZ Online Command)</value>
+  </data>
+  <data name="RESPONDAUTZ_REGRA__descritivohelp" xml:space="preserve">
+    <value>Rule (RESPOND AUTZ Online Command)</value>
+  </data>
+  <data name="SCORE__descricao" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="SCORE__descritivohelp" xml:space="preserve">
+    <value>Contains Score</value>
+  </data>
+  <data name="TERMINAL__descricao" xml:space="preserve">
+    <value>Merchant Terminal</value>
+  </data>
+  <data name="TERMINAL__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant Terminal</value>
+  </data>
+  <data name="TIPO_MSG_ENTRADA__descricao" xml:space="preserve">
+    <value>!!! Tipo Mensagem Entrada</value>
+  </data>
+  <data name="TIPO_MSG_ENTRADA__descritivohelp" xml:space="preserve">
+    <value>!!! Contains o Tipo Mensagem Entrada</value>
+  </data>
+  <data name="TIPO_PORTADOR__descricao" xml:space="preserve">
+    <value>Holder or Additional Customer</value>
+  </data>
+  <data name="TIPO_PORTADOR__descritivohelp" xml:space="preserve">
+    <value>Contains Holder or Additional Customer</value>
+  </data>
+  <data name="TOKEN_ACCSCORE__descricao" xml:space="preserve">
+    <value>Token ACC Score</value>
+  </data>
+  <data name="TOKEN_ACCSCORE__descritivohelp" xml:space="preserve">
+    <value>Contains Token ACC Score</value>
+  </data>
+  <data name="TOKEN_AGE__descricao" xml:space="preserve">
+    <value>Token Age</value>
+  </data>
+  <data name="TOKEN_AGE__descritivohelp" xml:space="preserve">
+    <value>Contains Token Age</value>
+  </data>
+  <data name="TOKEN_DEVSCORE__descricao" xml:space="preserve">
+    <value>Token DEV Score</value>
+  </data>
+  <data name="TOKEN_DEVSCORE__descritivohelp" xml:space="preserve">
+    <value>Contains Token DEV Score</value>
+  </data>
+  <data name="TOKEN_PRVSCORE__descricao" xml:space="preserve">
+    <value>Token PRV Score</value>
+  </data>
+  <data name="TOKEN_PRVSCORE__descritivohelp" xml:space="preserve">
+    <value>Contains Token PRV Score</value>
+  </data>
+  <data name="TOKEN_REASON_CODE__descricao" xml:space="preserve">
+    <value>Token Reason Code</value>
+  </data>
+  <data name="TOKEN_REASON_CODE__descritivohelp" xml:space="preserve">
+    <value>Contains Token Reason Code</value>
+  </data>
+  <data name="TOKEN_REQID__descricao" xml:space="preserve">
+    <value>Token Req ID</value>
+  </data>
+  <data name="TOKEN_REQID__descritivohelp" xml:space="preserve">
+    <value>Contains Token Req ID</value>
+  </data>
+  <data name="TOKEN_TRCOUNT__descricao" xml:space="preserve">
+    <value>Token TR Count</value>
+  </data>
+  <data name="TOKEN_TRCOUNT__descritivohelp" xml:space="preserve">
+    <value>Contains Token TR Count</value>
+  </data>
+  <data name="TOKEN_TYPE__descricao" xml:space="preserve">
+    <value>Token Type</value>
+  </data>
+  <data name="TOKEN_TYPE__descritivohelp" xml:space="preserve">
+    <value>Contains Token Type</value>
+  </data>
+  <data name="TRN_TOKENIZADA__descricao" xml:space="preserve">
+    <value>TRN Tokenized</value>
+  </data>
+  <data name="TRN_TOKENIZADA__descritivohelp" xml:space="preserve">
+    <value>Contains TRN Tokenized</value>
+  </data>
+  <data name="TRSCONTADOR__descricao" xml:space="preserve">
+    <value>!!! TRSCONTAR Command - Quantidade de Transações após execução do Comando</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LATITUDE__descricao" xml:space="preserve">
+    <value>Geolocation Latitude - Transaction Merchant</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LATITUDE__descritivohelp" xml:space="preserve">
+    <value>Contains Geolocation Latitude - Transaction Merchant</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LONGITUDE__descricao" xml:space="preserve">
+    <value>Geolocation Longitude - Transaction Merchant</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LONGITUDE__descritivohelp" xml:space="preserve">
+    <value>Contains Geolocation Longitude - Transaction Merchant</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LATITUDE_ANT__descricao" xml:space="preserve">
+    <value>Geolocation Latitude - Transaction Merchant 'Previous'</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LATITUDE_ANT__descritivohelp" xml:space="preserve">
+    <value>Contains Geolocation Latitude - Transaction Merchant 'Previous'</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LONGITUDE_ANT__descricao" xml:space="preserve">
+    <value>Geolocation Longitude - Transaction Merchant 'Previous'</value>
+  </data>
+  <data name="TRS_GEOLOCAL_LONGITUDE_ANT__descritivohelp" xml:space="preserve">
+    <value>Contains Geolocation Longitude - Transaction Merchant 'Previous'</value>
+  </data>
+  <data name="TRS_TEMPO_ULTIMA__descricao" xml:space="preserve">
+    <value>Difference, in seconds, between previous transaction and current transaction</value>
+  </data>
+  <data name="TRS_TEMPO_ULTIMA__descritivohelp" xml:space="preserve">
+    <value>Difference, in seconds, between previous transaction and current transaction</value>
+  </data>
+  <data name="UF_CLIENTE__descricao" xml:space="preserve">
+    <value>Customer State</value>
+  </data>
+  <data name="UF_CLIENTE__descritivohelp" xml:space="preserve">
+    <value>Contains Customer State</value>
+  </data>
+  <data name="UF_TRANSACAO__descricao" xml:space="preserve">
+    <value>Merchant State</value>
+  </data>
+  <data name="UF_TRANSACAO__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant State</value>
+  </data>
+  <data name="UF_TRANS_ANT__descricao" xml:space="preserve">
+    <value>Merchant State 'Previous'</value>
+  </data>
+  <data name="UF_TRANS_ANT__descritivohelp" xml:space="preserve">
+    <value>Contains Merchant State 'Previous'</value>
+  </data>
+  <data name="VALOR_TICKET30D__descricao" xml:space="preserve">
+    <value>Ticket 30 Days Value</value>
+  </data>
+  <data name="VALOR_TICKET30D__descritivohelp" xml:space="preserve">
+    <value>Contains Ticket 30 Days Value</value>
+  </data>
+  <data name="VALOR_4__descricao" xml:space="preserve">
+    <value>Local Value</value>
+  </data>
+  <data name="VALOR_4__descritivohelp" xml:space="preserve">
+    <value>Contains Transaction Local Value</value>
+  </data>
+  <data name="VALOR_4_ANT__descritivohelp" xml:space="preserve">
+    <value>Contains ??? Transaction Local Value 'Previous'</value>
+  </data>
+  <data name="VALOR_6__descricao" xml:space="preserve">
+    <value>Invoiced Value</value>
+  </data>
+  <data name="VALOR_6__descritivohelp" xml:space="preserve">
+    <value>Contains Transaction Invoiced Value</value>
+  </data>
+  <data name="VALOR_6_ANT__descritivohelp" xml:space="preserve">
+    <value>??? Contains Transaction Invoiced Value 'Previous'</value>
+  </data>
+  <data name="DATA__descricao" xml:space="preserve">
+    <value>Transaction Date</value>
+  </data>
+  <data name="HORA__descricao" xml:space="preserve">
+    <value>Transaction Time</value>
+  </data>
+  <data name="CRT_LIMITE_COMPRA__descricao" xml:space="preserve">
+    <value>Purchasing Avaliable Limit of the Card</value>
+  </data>
+  <data name="CRT_LIMITE_SAQUE__descricao" xml:space="preserve">
+    <value>Withdraw Limit of the Card</value>
+  </data>
+  <data name="CTA_HORA_DESBLOQ__descricao" xml:space="preserve">
+    <value>Account Unblock Time</value>
+  </data>
+  <data name="HORA_DESBLOQ__descricao" xml:space="preserve">
+    <value>Card Unblock Time</value>
+  </data>
+  <data name="HORA_EMISSAO__descricao" xml:space="preserve">
+    <value>Card Issue Time</value>
+  </data>
+  <data name="GEOLOCAL_DISTANCIACEP_ENDRES_TRANS__descritivohelp" xml:space="preserve">
+    <value>Result of a Distance Calculation (KM) between Customer Home Address ZIP and Merchant ZIP</value>
+  </data>
+  <data name="ACC__CASH_LIMIT__descricao" xml:space="preserve">
+    <value>!!! #EN# (ACC__CASH_LIMIT__descricao)</value>
+  </data>
+  <data name="ACC__CASH_LIMIT__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (ACC__CASH_LIMIT__descritivohelp)</value>
+  </data>
+  <data name="ACC__OPENED_DAYS__descricao" xml:space="preserve">
+    <value>!!! #EN# (ACC__OPENED_DAYS__descricao)</value>
+  </data>
+  <data name="ACC__OPENED_DAYS__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (ACC__OPENED_DAYS__descritivohelp)</value>
+  </data>
+  <data name="ACC__PURCHASE_LIMIT__descricao" xml:space="preserve">
+    <value>!!! #EN# (ACC__PURCHASE_LIMIT__descricao)</value>
+  </data>
+  <data name="ACC__PURCHASE_LIMIT__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (ACC__PURCHASE_LIMIT__descritivohelp)</value>
+  </data>
+  <data name="CRD__ADTNAL_CVC_CVV2__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__ADTNAL_CVC_CVV2__descricao)</value>
+  </data>
+  <data name="CRD__ADTNAL_CVC_CVV2__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__ADTNAL_CVC_CVV2__descritivohelp)</value>
+  </data>
+  <data name="CRD__BIN__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIN__descricao)</value>
+  </data>
+  <data name="CRD__BIN__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIN__descritivohelp)</value>
+  </data>
+  <data name="CRD__BIT_ADTNAL_CVC_CVV2__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_ADTNAL_CVC_CVV2__descricao)</value>
+  </data>
+  <data name="CRD__BIT_ADTNAL_CVC_CVV2__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_ADTNAL_CVC_CVV2__descritivohelp)</value>
+  </data>
+  <data name="CRD__BIT_EXPIRATION_DATE__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_EXPIRATION_DATE__descricao)</value>
+  </data>
+  <data name="CRD__BIT_EXPIRATION_DATE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_EXPIRATION_DATE__descritivohelp)</value>
+  </data>
+  <data name="CRD__BIT_NUMBER__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_NUMBER__descricao)</value>
+  </data>
+  <data name="CRD__BIT_NUMBER__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_NUMBER__descritivohelp)</value>
+  </data>
+  <data name="CRD__BIT_TRACK1_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_TRACK1_DATA__descricao)</value>
+  </data>
+  <data name="CRD__BIT_TRACK1_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_TRACK1_DATA__descritivohelp)</value>
+  </data>
+  <data name="CRD__BIT_TRACK2_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_TRACK2_DATA__descricao)</value>
+  </data>
+  <data name="CRD__BIT_TRACK2_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_TRACK2_DATA__descritivohelp)</value>
+  </data>
+  <data name="CRD__SEGMENT__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__SEGMENT__descricao)</value>
+  </data>
+  <data name="CRD__SEGMENT__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__SEGMENT__descritivohelp)</value>
+  </data>
+  <data name="CRD__SERVICE_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__SERVICE_CODE__descricao)</value>
+  </data>
+  <data name="CRD__SERVICE_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__SERVICE_CODE__descritivohelp)</value>
+  </data>
+  <data name="CRD__TRACK1_NAME__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK1_NAME__descricao)</value>
+  </data>
+  <data name="CRD__TRACK1_NAME__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK1_NAME__descritivohelp)</value>
+  </data>
+  <data name="CST__CORPORATION__descricao" xml:space="preserve">
+    <value>!!! #EN# (CST__CORPORATION__descricao)</value>
+  </data>
+  <data name="CST__CORPORATION__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CST__CORPORATION__descritivohelp)</value>
+  </data>
+  <data name="CST__FLAG_ULTRA_HIGH_VALUE__descricao" xml:space="preserve">
+    <value>!!! #EN# (CST__FLAG_ULTRA_HIGH_VALUE__descricao)</value>
+  </data>
+  <data name="CST__FLAG_ULTRA_HIGH_VALUE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CST__FLAG_ULTRA_HIGH_VALUE__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_BEHALF_SERVICE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_BEHALF_SERVICE__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_BEHALF_SERVICE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_BEHALF_SERVICE__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_AUTHENTICATION__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_AUTHENTICATION__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_AUTHENTICATION__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_AUTHENTICATION__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_SECURITY__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_SECURITY__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_SECURITY__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_SECURITY__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_UCAF_INDICATOR__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_UCAF_INDICATOR__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_UCAF_INDICATOR__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_UCAF_INDICATOR__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_FRAUD_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_FRAUD_DATA__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_FRAUD_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_FRAUD_DATA__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_FRAUD_SCORE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_FRAUD_SCORE__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_FRAUD_SCORE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_FRAUD_SCORE__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURITY_SERVICE_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_SECURITY_SERVICE_DATA__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURITY_SERVICE_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_SECURITY_SERVICE_DATA__descritivohelp)</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURITY_SERVICE_INDICATOR__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_SECURITY_SERVICE_INDICATOR__descricao)</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURITY_SERVICE_INDICATOR__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_SECURITY_SERVICE_INDICATOR__descritivohelp)</value>
+  </data>
+  <data name="FIN__BILLING_CURRENCY_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BILLING_CURRENCY_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BILLING_CURRENCY_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BILLING_CURRENCY_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_ACQUIRING_ID_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ACQUIRING_ID_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_ACQUIRING_ID_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ACQUIRING_ID_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_BEHALF_SERVICES__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_BEHALF_SERVICES__descricao)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_BEHALF_SERVICES__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_BEHALF_SERVICES__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_ECOMM_INDICATORS__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_ECOMM_INDICATORS__descricao)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_ECOMM_INDICATORS__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_ECOMM_INDICATORS__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_FRAUD_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_FRAUD_DATA__descricao)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_FRAUD_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_FRAUD_DATA__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_AMOUNT__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_AMOUNT__descricao)</value>
+  </data>
+  <data name="FIN__BIT_AMOUNT__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_AMOUNT__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_AMOUNT_BILLING__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_AMOUNT_BILLING__descricao)</value>
+  </data>
+  <data name="FIN__BIT_AMOUNT_BILLING__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_AMOUNT_BILLING__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_BILLING_CURRENCY_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_BILLING_CURRENCY_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_BILLING_CURRENCY_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_BILLING_CURRENCY_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_CURRENCY_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_CURRENCY_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_CURRENCY_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_CURRENCY_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_ENTRY_MODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ENTRY_MODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_ENTRY_MODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ENTRY_MODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_CITY__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_CITY__descricao)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_CITY__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_CITY__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_STATE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_STATE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_STATE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_STATE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_ZIP__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_ZIP__descricao)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_ZIP__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_ZIP__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_COUNTRY_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_COUNTRY_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_COUNTRY_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_COUNTRY_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_NAME__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_NAME__descricao)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_NAME__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_NAME__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_TYPE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_TYPE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_TYPE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_TYPE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_PROCESSING_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_PROCESSING_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_PROCESSING_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_PROCESSING_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_RESPONSE_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_RESPONSE_CODE__descricao)</value>
+  </data>
+  <data name="FIN__BIT_RESPONSE_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_RESPONSE_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_TERMINAL_ID__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_TERMINAL_ID__descricao)</value>
+  </data>
+  <data name="FIN__BIT_TERMINAL_ID__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_TERMINAL_ID__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_TIME__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_TIME__descricao)</value>
+  </data>
+  <data name="FIN__BIT_TIME__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_TIME__descritivohelp)</value>
+  </data>
+  <data name="FIN__POS_CARD_CAPTURE_CAPABILITIES__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARD_CAPTURE_CAPABILITIES__descricao)</value>
+  </data>
+  <data name="FIN__POS_CARD_CAPTURE_CAPABILITIES__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARD_CAPTURE_CAPABILITIES__descritivohelp)</value>
+  </data>
+  <data name="FIN__POS_CARD_PRESENCE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARD_PRESENCE__descricao)</value>
+  </data>
+  <data name="FIN__POS_CARD_PRESENCE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARD_PRESENCE__descritivohelp)</value>
+  </data>
+  <data name="FIN__POS_CARDHOLDER_PRESENCE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARDHOLDER_PRESENCE__descricao)</value>
+  </data>
+  <data name="FIN__POS_CARDHOLDER_PRESENCE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARDHOLDER_PRESENCE__descritivohelp)</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_CAPABILITY__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_TERMINAL_CAPABILITY__descricao)</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_CAPABILITY__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_TERMINAL_CAPABILITY__descritivohelp)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE__descricao)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE__descritivohelp)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_FROM_ACCOUNT__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_FROM_ACCOUNT__descricao)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_FROM_ACCOUNT__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_FROM_ACCOUNT__descritivohelp)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_TO_ACCOUNT__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_TO_ACCOUNT__descricao)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_TO_ACCOUNT__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_TO_ACCOUNT__descritivohelp)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_TRANSACTION_TYPE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_TRANSACTION_TYPE__descricao)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_TRANSACTION_TYPE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_TRANSACTION_TYPE__descritivohelp)</value>
+  </data>
+  <data name="FIN__QTY_PARCELAS__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__QTY_PARCELAS__descricao)</value>
+  </data>
+  <data name="FIN__QTY_PARCELAS__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__QTY_PARCELAS__descritivohelp)</value>
+  </data>
+  <data name="INTER__CST_FONE_UPDATE_DATE_DAYS__descricao" xml:space="preserve">
+    <value>!!! #EN# (INTER__CST_FONE_UPDATE_DATE_DAYS__descricao)</value>
+  </data>
+  <data name="INTER__CST_FONE_UPDATE_DATE_DAYS__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (INTER__CST_FONE_UPDATE_DATE_DAYS__descritivohelp)</value>
+  </data>
+  <data name="INTER__RESPONSE_CODE__descricao" xml:space="preserve">
+    <value>!!! #EN# (INTER__RESPONSE_CODE__descricao)</value>
+  </data>
+  <data name="INTER__RESPONSE_CODE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (INTER__RESPONSE_CODE__descritivohelp)</value>
+  </data>
+  <data name="MSG__TYPE_IDENTIFIER__descricao" xml:space="preserve">
+    <value>!!! #EN# (MSG__TYPE_IDENTIFIER__descricao)</value>
+  </data>
+  <data name="MSG__TYPE_IDENTIFIER__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (MSG__TYPE_IDENTIFIER__descritivohelp)</value>
+  </data>
+  <data name="CRD__ADTNAL_CVC_CVV2__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__ADTNAL_CVC_CVV2)</value>
+  </data>
+  <data name="CRD__BIT_ADTNAL_CVC_CVV2__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_ADTNAL_CVC_CVV2)</value>
+  </data>
+  <data name="CRD__BIT_EXPIRATION_DATE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_EXPIRATION_DATE)</value>
+  </data>
+  <data name="CRD__BIT_NUMBER__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_NUMBER)</value>
+  </data>
+  <data name="CRD__BIT_TRACK1_DATA__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_TRACK1_DATA)</value>
+  </data>
+  <data name="CRD__BIT_TRACK2_DATA__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__BIT_TRACK2_DATA)</value>
+  </data>
+  <data name="CRD__SERVICE_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__SERVICE_CODE)</value>
+  </data>
+  <data name="CRD__TRACK1_NAME__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK1_NAME)</value>
+  </data>
+  <data name="FIN__ADTNAL_BEHALF_SERVICE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_BEHALF_SERVICE)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_AUTHENTICATION__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_AUTHENTICATION)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_SECURITY__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_SECURITY)</value>
+  </data>
+  <data name="FIN__ADTNAL_ECOMM_UCAF_INDICATOR__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_ECOMM_UCAF_INDICATOR)</value>
+  </data>
+  <data name="FIN__ADTNAL_FRAUD_DATA__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_FRAUD_DATA)</value>
+  </data>
+  <data name="FIN__ADTNAL_FRAUD_SCORE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_FRAUD_SCORE)</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURITY_SERVICE_DATA__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_SECURITY_SERVICE_DATA)</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURITY_SERVICE_INDICATOR__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__ADTNAL_SECURITY_SERVICE_INDICATOR)</value>
+  </data>
+  <data name="FIN__BILLING_CURRENCY_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BILLING_CURRENCY_CODE)</value>
+  </data>
+  <data name="FIN__BIT_ACQUIRING_ID_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ACQUIRING_ID_CODE)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_BEHALF_SERVICES__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_BEHALF_SERVICES)</value>
+  </data>
+  <data name="FIN__BIT_ADTNAL_ECOMM_INDICATORS__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ADTNAL_ECOMM_INDICATORS)</value>
+  </data>
+  <data name="FIN__BIT_AMOUNT__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_AMOUNT)</value>
+  </data>
+  <data name="FIN__BIT_AMOUNT_BILLING__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_AMOUNT_BILLING)</value>
+  </data>
+  <data name="FIN__BIT_BILLING_CURRENCY_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_BILLING_CURRENCY_CODE)</value>
+  </data>
+  <data name="FIN__BIT_CURRENCY_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_CURRENCY_CODE)</value>
+  </data>
+  <data name="FIN__BIT_ENTRY_MODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_ENTRY_MODE)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_CITY__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_CITY)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_STATE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_STATE)</value>
+  </data>
+  <data name="FIN__BIT_MERADD_ZIP__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERADD_ZIP)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_COUNTRY_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_COUNTRY_CODE)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_NAME__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_NAME)</value>
+  </data>
+  <data name="FIN__BIT_MERCH_TYPE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_MERCH_TYPE)</value>
+  </data>
+  <data name="FIN__BIT_PROCESSING_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_PROCESSING_CODE)</value>
+  </data>
+  <data name="FIN__BIT_RESPONSE_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_RESPONSE_CODE)</value>
+  </data>
+  <data name="FIN__BIT_TERMINAL_ID__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_TERMINAL_ID)</value>
+  </data>
+  <data name="FIN__BIT_TIME__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_TIME)</value>
+  </data>
+  <data name="FIN__POS_CARD_CAPTURE_CAPABILITIES__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARD_CAPTURE_CAPABILITIES)</value>
+  </data>
+  <data name="FIN__POS_CARD_PRESENCE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARD_PRESENCE)</value>
+  </data>
+  <data name="FIN__POS_CARDHOLDER_PRESENCE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_CARDHOLDER_PRESENCE)</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_CAPABILITY__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__POS_TERMINAL_CAPABILITY)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_FROM_ACCOUNT__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_FROM_ACCOUNT)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_TO_ACCOUNT__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_TO_ACCOUNT)</value>
+  </data>
+  <data name="FIN__PROCESSING_CODE_TRANSACTION_TYPE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__PROCESSING_CODE_TRANSACTION_TYPE)</value>
+  </data>
+  <data name="FIN__QTY_PARCELAS__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__QTY_PARCELAS)</value>
+  </data>
+  <data name="MSG__TYPE_IDENTIFIER__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (MSG__TYPE_IDENTIFIER)</value>
+  </data>
+  <data name="CRD__TRACK1_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK1_DATA__descricao)</value>
+  </data>
+  <data name="CRD__TRACK1_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK1_DATA__descritivohelp)</value>
+  </data>
+  <data name="CRD__TRACK1_DATA__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK1_DATA)</value>
+  </data>
+  <data name="CRD__TRACK2_DATA__descricao" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK2_DATA__descricao)</value>
+  </data>
+  <data name="CRD__TRACK2_DATA__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK2_DATA__descritivohelp)</value>
+  </data>
+  <data name="CRD__TRACK2_DATA__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (CRD__TRACK2_DATA)</value>
+  </data>
+  <data name="FIN__BIT_PARCELAS__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_PARCELAS__descricao)</value>
+  </data>
+  <data name="FIN__BIT_PARCELAS__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_PARCELAS__descritivohelp)</value>
+  </data>
+  <data name="FIN__BIT_PARCELAS__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__BIT_PARCELAS)</value>
+  </data>
+  <data name="FIN__CUOTAS_PLAN_TYPE__descricao" xml:space="preserve">
+    <value>!!! #EN# (FIN__CUOTAS_PLAN_TYPE__descricao)</value>
+  </data>
+  <data name="FIN__CUOTAS_PLAN_TYPE__descritivohelp" xml:space="preserve">
+    <value>!!! #EN# (FIN__CUOTAS_PLAN_TYPE__descritivohelp)</value>
+  </data>
+  <data name="FIN__CUOTAS_PLAN_TYPE__isoinfo" xml:space="preserve">
+    <value>!!! #EN# (FIN__CUOTAS_PLAN_TYPE)</value>
+  </data>
+  <data name="FIN__STAN_CODE__descricao" xml:space="preserve">
+    <value>Systems Trace Audit Number (STAN)</value>
+  </data>
+  <data name="FIN__STAN_CODE__descritivohelp" xml:space="preserve">
+    <value>Systems Trace Audit Number (STAN)</value>
+  </data>
+  <data name="FIN__STAN_CODE__isoinfo" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_PIN_ENTRY_MODE__descricao" xml:space="preserve">
+    <value>POS Terminal PIN Entry Mode</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_PIN_ENTRY_MODE__descritivohelp" xml:space="preserve">
+    <value>POS Terminal PIN Entry Mode</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_PIN_ENTRY_MODE__isoinfo" xml:space="preserve">
+    <value>22_2</value>
+  </data>
+  <data name="FIN__HOSTED_MOBILE_PHONE__descricao" xml:space="preserve">
+    <value>Hosted Mobile Phone Number</value>
+  </data>
+  <data name="FIN__HOSTED_MOBILE_PHONE__descritivohelp" xml:space="preserve">
+    <value>Hosted Mobile Phone Number</value>
+  </data>
+  <data name="FIN__HOSTED_MOBILE_PHONE__isoinfo" xml:space="preserve">
+    <value>48_13_1</value>
+  </data>
+  <data name="FIN__PAYM_CHANNEL_DEVICE_TYPE__descricao" xml:space="preserve">
+    <value>Payment Initiation Channel - Device Type</value>
+  </data>
+  <data name="FIN__PAYM_CHANNEL_DEVICE_TYPE__descritivohelp" xml:space="preserve">
+    <value>Payment Initiation Channel - Device Type</value>
+  </data>
+  <data name="FIN__PAYM_CHANNEL_DEVICE_TYPE__isoinfo" xml:space="preserve">
+    <value>48_23_1</value>
+  </data>
+  <data name="FIN__WALLET_PROGDATA__descricao" xml:space="preserve">
+    <value>Wallet Program Data</value>
+  </data>
+  <data name="FIN__WALLET_PROGDATA__descritivohelp" xml:space="preserve">
+    <value>Wallet Program Data</value>
+  </data>
+  <data name="FIN__WALLET_PROGDATA__isoinfo" xml:space="preserve">
+    <value>48_26</value>
+  </data>
+  <data name="FIN__WALLET_PROGDATA_WALLT_IDENTIFIER__descricao" xml:space="preserve">
+    <value>Wallet Program Data - Wallet Identifier</value>
+  </data>
+  <data name="FIN__WALLET_PROGDATA_WALLT_IDENTIFIER__descritivohelp" xml:space="preserve">
+    <value>Wallet Program Data - Wallet Identifier</value>
+  </data>
+  <data name="FIN__WALLET_PROGDATA_WALLT_IDENTIFIER__isoinfo" xml:space="preserve">
+    <value>48_26_1</value>
+  </data>
+  <data name="FIN__PANMAP_ACCOUNT_NUMBER_INDIC__descricao" xml:space="preserve">
+    <value>PAN Mapping File - Account Number Indicator</value>
+  </data>
+  <data name="FIN__PANMAP_ACCOUNT_NUMBER_INDIC__descritivohelp" xml:space="preserve">
+    <value>PAN Mapping File - Account Number Indicator</value>
+  </data>
+  <data name="FIN__PANMAP_ACCOUNT_NUMBER_INDIC__isoinfo" xml:space="preserve">
+    <value>48_33_1</value>
+  </data>
+  <data name="FIN__PANMAP_ACCOUNT_NUMBER__descricao" xml:space="preserve">
+    <value>PAN Mapping File - Account Number</value>
+  </data>
+  <data name="FIN__PANMAP_ACCOUNT_NUMBER__descritivohelp" xml:space="preserve">
+    <value>PAN Mapping File - Account Number</value>
+  </data>
+  <data name="FIN__PANMAP_ACCOUNT_NUMBER__isoinfo" xml:space="preserve">
+    <value>48_33_2</value>
+  </data>
+  <data name="FIN__PANMAP_EXPIRATION_DATE__descricao" xml:space="preserve">
+    <value>PAN Mapping File - Expiration Date</value>
+  </data>
+  <data name="FIN__PANMAP_EXPIRATION_DATE__descritivohelp" xml:space="preserve">
+    <value>PAN Mapping File - Expiration Date</value>
+  </data>
+  <data name="FIN__PANMAP_EXPIRATION_DATE__isoinfo" xml:space="preserve">
+    <value>48_33_3</value>
+  </data>
+  <data name="FIN__PANMAP_TOKEN_ASSU_LEVEL__descricao" xml:space="preserve">
+    <value>PAN Mapping File - Token Assurance Level</value>
+  </data>
+  <data name="FIN__PANMAP_TOKEN_ASSU_LEVEL__descritivohelp" xml:space="preserve">
+    <value>PAN Mapping File - Token Assurance Level</value>
+  </data>
+  <data name="FIN__PANMAP_TOKEN_ASSU_LEVEL__isoinfo" xml:space="preserve">
+    <value>48_33_5</value>
+  </data>
+  <data name="FIN__PANMAP_TOKEN_REQUESTOR_ID__descricao" xml:space="preserve">
+    <value>PAN Mapping File - Token Requestor ID</value>
+  </data>
+  <data name="FIN__PANMAP_TOKEN_REQUESTOR_ID__descritivohelp" xml:space="preserve">
+    <value>PAN Mapping File - Token Requestor ID</value>
+  </data>
+  <data name="FIN__PANMAP_TOKEN_REQUESTOR_ID__isoinfo" xml:space="preserve">
+    <value>48_33_6</value>
+  </data>
+  <data name="FIN__PAYPASS_NONCARD_FACTOR_REQ_RES__descricao" xml:space="preserve">
+    <value>PayPass Contactless Non-Card Form Factor Request/Response</value>
+  </data>
+  <data name="FIN__PAYPASS_NONCARD_FACTOR_REQ_RES__descritivohelp" xml:space="preserve">
+    <value>PayPass Contactless Non-Card Form Factor Request/Response</value>
+  </data>
+  <data name="FIN__PAYPASS_NONCARD_FACTOR_REQ_RES__isoinfo" xml:space="preserve">
+    <value>48_35</value>
+  </data>
+  <data name="FIN__ECOMMCQI_CITIZEN_ID__descricao" xml:space="preserve">
+    <value>Electronic Commerce Certificate Qualifying Information - Citizen ID</value>
+  </data>
+  <data name="FIN__ECOMMCQI_CITIZEN_ID__descritivohelp" xml:space="preserve">
+    <value>Electronic Commerce Certificate Qualifying Information - Citizen ID</value>
+  </data>
+  <data name="FIN__ECOMMCQI_CITIZEN_ID__isoinfo" xml:space="preserve">
+    <value>48_41_11</value>
+  </data>
+  <data name="FIN__ADTNAL_UCAF__descricao" xml:space="preserve">
+    <value>Universal Cardholder Authentication Field (UCAF)</value>
+  </data>
+  <data name="FIN__ADTNAL_UCAF__descritivohelp" xml:space="preserve">
+    <value>Universal Cardholder Authentication Field (UCAF)</value>
+  </data>
+  <data name="FIN__ADTNAL_UCAF__isoinfo" xml:space="preserve">
+    <value>48_43</value>
+  </data>
+
+  <data name="FIN__ADTNAL_UCAF_AAV_CONTROL__descricao" xml:space="preserve"><value>Universal Cardholder Authentication Field (UCAF) AAV Control</value></data>
+  <data name="FIN__ADTNAL_UCAF_AAV_CONTROL__descritivohelp" xml:space="preserve"><value>Universal Cardholder Authentication Field (UCAF) AAV Control</value></data>
+  <data name="FIN__ADTNAL_UCAF_AAV_CONTROL__isoinfo" xml:space="preserve"><value>48_43 Position 1</value></data>
+
+  <data name="FIN__BIT_ADTNAL_UCAF__descricao" xml:space="preserve"><value>Bit Universal Cardholder Authentication Field (UCAF)</value></data>
+  <data name="FIN__BIT_ADTNAL_UCAF__descritivohelp" xml:space="preserve"><value>Bit Universal Cardholder Authentication Field (UCAF)</value></data>
+  <data name="FIN__BIT_ADTNAL_UCAF__isoinfo" xml:space="preserve"><value>48_43_1</value></data>
+
+  <data name="FIN__ID_REQUEST_CODE__descricao" xml:space="preserve">
+    <value>E-ID Request Value</value>
+  </data>
+  <data name="FIN__ID_REQUEST_CODE__descritivohelp" xml:space="preserve">
+    <value>E-ID Request Value</value>
+  </data>
+  <data name="FIN__ID_REQUEST_CODE__isoinfo" xml:space="preserve">
+    <value>48_53_1</value>
+  </data>
+  <data name="FIN__MERFRAUD_SCORING_SCORE__descricao" xml:space="preserve">
+    <value>Merchant Fraud Scoring Data - Merchant Fraud Score</value>
+  </data>
+  <data name="FIN__MERFRAUD_SCORING_SCORE__descritivohelp" xml:space="preserve">
+    <value>Merchant Fraud Scoring Data - Merchant Fraud Score</value>
+  </data>
+  <data name="FIN__MERFRAUD_SCORING_SCORE__isoinfo" xml:space="preserve">
+    <value>48_55_1</value>
+  </data>
+  <data name="FIN__MERFRAUD_SCORING_REASON_CODE__descricao" xml:space="preserve">
+    <value>Merchant Fraud Scoring Data - Merchant Score Reason Code</value>
+  </data>
+  <data name="FIN__MERFRAUD_SCORING_REASON_CODE__descritivohelp" xml:space="preserve">
+    <value>Merchant Fraud Scoring Data - Merchant Score Reason Code</value>
+  </data>
+  <data name="FIN__MERFRAUD_SCORING_REASON_CODE__isoinfo" xml:space="preserve">
+    <value>48_55_2</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURIT_ADDDATA_ISSUERS__descricao" xml:space="preserve">
+    <value>Security Services Additional Data for Issuers</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURIT_ADDDATA_ISSUERS__descritivohelp" xml:space="preserve">
+    <value>Security Services Additional Data for Issuers</value>
+  </data>
+  <data name="FIN__ADTNAL_SECURIT_ADDDATA_ISSUERS__isoinfo" xml:space="preserve">
+    <value>48_56</value>
+  </data>
+  <data name="FIN__POSECC_PARTIAL_APPROVAL_TERMINAL__descricao" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Partial Approval Terminal Support Indicator</value>
+  </data>
+  <data name="FIN__POSECC_PARTIAL_APPROVAL_TERMINAL__descritivohelp" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Partial Approval Terminal Support Indicator</value>
+  </data>
+  <data name="FIN__POSECC_PARTIAL_APPROVAL_TERMINAL__isoinfo" xml:space="preserve">
+    <value>48_61_1</value>
+  </data>
+  <data name="FIN__POSECC_PURCHASE_AMMOUNT_TERMINAL__descricao" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Purchase Amount Only Terminal Support Indicator</value>
+  </data>
+  <data name="FIN__POSECC_PURCHASE_AMMOUNT_TERMINAL__descritivohelp" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Purchase Amount Only Terminal Support Indicator</value>
+  </data>
+  <data name="FIN__POSECC_PURCHASE_AMMOUNT_TERMINAL__isoinfo" xml:space="preserve">
+    <value>48_61_2</value>
+  </data>
+  <data name="FIN__POSECC_MERTRS_FRAUD_SCORING__descricao" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Merchant Transaction Fraud Scoring Indicator</value>
+  </data>
+  <data name="FIN__POSECC_MERTRS_FRAUD_SCORING__descritivohelp" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Merchant Transaction Fraud Scoring Indicator</value>
+  </data>
+  <data name="FIN__POSECC_MERTRS_FRAUD_SCORING__isoinfo" xml:space="preserve">
+    <value>48_61_4</value>
+  </data>
+  <data name="FIN__POSECC_FINAL_AUTHORIZ__descricao" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Final Authorization Indicator</value>
+  </data>
+  <data name="FIN__POSECC_FINAL_AUTHORIZ__descritivohelp" xml:space="preserve">
+    <value>POS Data Extended Condition Codes - Final Authorization Indicator</value>
+  </data>
+  <data name="FIN__POSECC_FINAL_AUTHORIZ__isoinfo" xml:space="preserve">
+    <value>48_61_5</value>
+  </data>
+  <data name="FIN__ADDRESS_VERIF_REQUEST__descricao" xml:space="preserve">
+    <value> Address Verification Service Request</value>
+  </data>
+  <data name="FIN__ADDRESS_VERIF_REQUEST__descritivohelp" xml:space="preserve">
+    <value> Address Verification Service Request</value>
+  </data>
+  <data name="FIN__ADDRESS_VERIF_REQUEST__isoinfo" xml:space="preserve">
+    <value>48_82</value>
+  </data>
+  <data name="FIN__ADDRESS_VERIF_RESPONSE__descricao" xml:space="preserve">
+    <value> Address Verification Service Response</value>
+  </data>
+  <data name="FIN__ADDRESS_VERIF_RESPONSE__descritivohelp" xml:space="preserve">
+    <value> Address Verification Service Response</value>
+  </data>
+  <data name="FIN__ADDRESS_VERIF_RESPONSE__isoinfo" xml:space="preserve">
+    <value>48_83</value>
+  </data>
+  <data name="FIN__MERCHANT_ADVICE_CODE__descricao" xml:space="preserve">
+    <value>Merchant Advice Code</value>
+  </data>
+  <data name="FIN__MERCHANT_ADVICE_CODE__descritivohelp" xml:space="preserve">
+    <value>Merchant Advice Code</value>
+  </data>
+  <data name="FIN__MERCHANT_ADVICE_CODE__isoinfo" xml:space="preserve">
+    <value>48_84</value>
+  </data>
+  <data name="FIN__CARD_VALIDATION_CODE__descricao" xml:space="preserve">
+    <value>Card Validation Code Result</value>
+  </data>
+  <data name="FIN__CARD_VALIDATION_CODE__descritivohelp" xml:space="preserve">
+    <value>Card Validation Code Result</value>
+  </data>
+  <data name="FIN__CARD_VALIDATION_CODE__isoinfo" xml:space="preserve">
+    <value>48_87</value>
+  </data>
+  <data name="FIN__ADVMSG_ADVICE_REASON_CODE__descricao" xml:space="preserve">
+    <value>Advice Message - Advice Reason Code</value>
+  </data>
+  <data name="FIN__ADVMSG_ADVICE_REASON_CODE__descritivohelp" xml:space="preserve">
+    <value>Advice Message - Advice Reason Code</value>
+  </data>
+  <data name="FIN__ADVMSG_ADVICE_REASON_CODE__isoinfo" xml:space="preserve">
+    <value>60_1</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_ATTENDANCE__descricao" xml:space="preserve">
+    <value>POS Terminal Attendance</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_ATTENDANCE__descritivohelp" xml:space="preserve">
+    <value>POS Terminal Attendance</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_ATTENDANCE__isoinfo" xml:space="preserve">
+    <value>61_1</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_LOCATION__descricao" xml:space="preserve">
+    <value>POS Terminal Location</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_LOCATION__descritivohelp" xml:space="preserve">
+    <value>POS Terminal Location</value>
+  </data>
+  <data name="FIN__POS_TERMINAL_LOCATION__isoinfo" xml:space="preserve">
+    <value>61_3</value>
+  </data>
+  <data name="FIN__POS_TRS_STATUS__descricao" xml:space="preserve">
+    <value>POS Transaction Status</value>
+  </data>
+  <data name="FIN__POS_TRS_STATUS__descritivohelp" xml:space="preserve">
+    <value>POS Transaction Status</value>
+  </data>
+  <data name="FIN__POS_TRS_STATUS__isoinfo" xml:space="preserve">
+    <value>61_7</value>
+  </data>
+  <data name="FIN__POS_TRS_SECURITY__descricao" xml:space="preserve">
+    <value>POS Transaction Security</value>
+  </data>
+  <data name="FIN__POS_TRS_SECURITY__descritivohelp" xml:space="preserve">
+    <value>POS Transaction Security</value>
+  </data>
+  <data name="FIN__POS_TRS_SECURITY__isoinfo" xml:space="preserve">
+    <value>61_8</value>
+  </data>
+  <data name="FIN__POS_CARDHOLDER_ACTIVATED_TERMINAL__descricao" xml:space="preserve">
+    <value>Cardholder-Activated Terminal Level</value>
+  </data>
+  <data name="FIN__POS_CARDHOLDER_ACTIVATED_TERMINAL__descritivohelp" xml:space="preserve">
+    <value>Cardholder-Activated Terminal Level</value>
+  </data>
+  <data name="FIN__POS_CARDHOLDER_ACTIVATED_TERMINAL__isoinfo" xml:space="preserve">
+    <value>61_10</value>
+  </data>
+  <data name="FIN__POS_COUNTRY_CODE__descricao" xml:space="preserve">
+    <value>POS Country Code (or Sub-Merchant Information, if applicable)</value>
+  </data>
+  <data name="FIN__POS_COUNTRY_CODE__descritivohelp" xml:space="preserve">
+    <value>POS Country Code (or Sub-Merchant Information, if applicable)</value>
+  </data>
+  <data name="FIN__POS_COUNTRY_CODE__isoinfo" xml:space="preserve">
+    <value>61_13</value>
+  </data>
+  <data name="FIN__NETWORK_FINANCIAL_CODE__descricao" xml:space="preserve">
+    <value>Network Data - Financial Network Code</value>
+  </data>
+  <data name="FIN__NETWORK_FINANCIAL_CODE__descritivohelp" xml:space="preserve">
+    <value>Network Data - Financial Network Code</value>
+  </data>
+  <data name="FIN__NETWORK_FINANCIAL_CODE__isoinfo" xml:space="preserve">
+    <value>63_1</value>
+  </data>
+
+  <data name="CST__CEP_CDD__descricao" xml:space="preserve"><value>!!! #EN# CEP CDD Cliente</value></data>
+  <data name="CST__CEP_CDD__descritivohelp" xml:space="preserve"><value>!!! #EN# CEP CDD Cliente</value></data>
+  <data name="FIN__CEP_CDD__descricao" xml:space="preserve"><value>!!! #EN# CEP CDD Estabelecimento</value></data>
+  <data name="FIN__CEP_CDD__descritivohelp" xml:space="preserve"><value>!!! #EN# CEP CDD Estabelecimento</value></data>
+</root>

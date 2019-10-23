@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GerarSintaxe_msg1001" xml:space="preserve">
+    <value>'Command' '##TOKEN1##' cannot exceed 30 chacacters</value>
+  </data>
+  <data name="GerarSintaxe_msg1002" xml:space="preserve">
+    <value>'Keyword' '##TOKEN1##' cannot exceed 40 chacacters</value>
+  </data>
+  <data name="GerarSintaxe_msg1003" xml:space="preserve">
+    <value>'Operator' '##TOKEN1##' cannot exceed 15 chacacters</value>
+  </data>
+  <data name="GerarSintaxe_msg1004" xml:space="preserve">
+    <value>'Constant' '##TOKEN1##' cannot exceed 40 chacacters</value>
+  </data>
+  <data name="GerarSintaxe_msg1005" xml:space="preserve">
+    <value>'Continue' '##TOKEN1##' cannot exceed 02 chacacters</value>
+  </data>
+  <data name="GerarSintaxe_msg1006" xml:space="preserve">
+    <value>'Complement' '##TOKEN1##' cannot exceed 80 chacacters including quotation marks</value>
+  </data>
+  <data name="GerarSintaxe_msg1007" xml:space="preserve">
+    <value>##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg1101" xml:space="preserve">
+    <value>'Command' ##TOKEN1## cannot contain complements</value>
+  </data>
+  <data name="GerarSintaxe_msg1102" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1201" xml:space="preserve">
+    <value>Sintax of IR PARA Command should be [ IR PARA ] [ REGRA ] [ = ] [ &lt;group code&gt;&lt;rule code&gt; ]</value>
+  </data>
+  <data name="GerarSintaxe_msg1202" xml:space="preserve">
+    <value>Invalid 'Operator' for 'Command' IR PARA. Must be '='</value>
+  </data>
+  <data name="GerarSintaxe_msg1203" xml:space="preserve">
+    <value>IR PARA command requires the Rule Code in 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1205" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' IR PARA. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg1206" xml:space="preserve">
+    <value>The Correct format of RULE to be deviated is  &lt;group code&gt;&lt;rule code&gt;. Ex: 001000002 (9 digits)</value>
+  </data>
+  <data name="GerarSintaxe_msg1207" xml:space="preserve">
+    <value>The Correct format of RULE to be deviated is  &lt;group code&gt;&lt;rule code&gt;. Ex: 001000002 (9 digits)</value>
+  </data>
+  <data name="GerarSintaxe_msg1208" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1209" xml:space="preserve">
+    <value>IR PARA command does not allow redirecting the flow to a Rule in another Group</value>
+  </data>
+  <data name="GerarSintaxe_msg1210" xml:space="preserve">
+    <value>IR PARA only allows redirecting the flow to a Rule 'below this' (Rule Code greater than this)</value>
+  </data>
+  <data name="GerarSintaxe_msg1211" xml:space="preserve">
+    <value>Rule [ ##TOKEN1## ] does not exist in this Simulation Package</value>
+  </data>
+  <data name="GerarSintaxe_msg1212" xml:space="preserve">
+    <value>Rule [ ##TOKEN1## ] is not ACTIVE in this Simulation Package</value>
+  </data>
+  <data name="GerarSintaxe_msg1213" xml:space="preserve">
+    <value>Rule [ ##TOKEN1## ] does not exist</value>
+  </data>
+  <data name="GerarSintaxe_msg1214" xml:space="preserve">
+    <value>Rule [ ##TOKEN1## ] is not ACTIVE</value>
+  </data>
+  <data name="GerarSintaxe_msg1301" xml:space="preserve">
+    <value>Sintax of EXECUTE Command should be [ EXECUTE ] [ PREV ] [ = ] [ &lt;group code&gt; ]</value>
+  </data>
+  <data name="GerarSintaxe_msg1302" xml:space="preserve">
+    <value>Invalid 'Operator' for 'Command' EXECUTE. Must be '='</value>
+  </data>
+  <data name="GerarSintaxe_msg1303" xml:space="preserve">
+    <value>EXECUTE command requires the Group Code in 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1305" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' EXECUTE. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg1306" xml:space="preserve">
+    <value>The Correct format of GROUP to be performed is  &lt;group code&gt;. Ex: 001 (3 digits)</value>
+  </data>
+  <data name="GerarSintaxe_msg1307" xml:space="preserve">
+    <value>The Correct format of GROUP to be performed is  &lt;group code&gt;. Ex: 001 (3 digits)</value>
+  </data>
+  <data name="GerarSintaxe_msg1308" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1309" xml:space="preserve">
+    <value>Group [ ##TOKEN1## ] does not exist</value>
+  </data>
+  <data name="GerarSintaxe_msg1310" xml:space="preserve">
+    <value>The Group [ ##TOKEN1## ] used in this command EXECUTE is not compatible with the Environment '##TOKEN2##' of this Rule</value>
+  </data>
+  <data name="GerarSintaxe_msg1401" xml:space="preserve">
+    <value>Sintax of NEURALEXEC Command should be [ NEURALEXEC ] [ REDE ] [ = ] [ &lt;neural network code&gt; ]</value>
+  </data>
+  <data name="GerarSintaxe_msg1402" xml:space="preserve">
+    <value>Invalid 'Operator' for 'Command' NEURALEXEC. Must be '='</value>
+  </data>
+  <data name="GerarSintaxe_msg1403" xml:space="preserve">
+    <value>NEURALEXEC command requires the Neural Network Code in 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1405" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' NEURALEXEC. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg1406" xml:space="preserve">
+    <value>The Correct format of NEURAL NETWORK to be performed is  &lt;neural network code&gt;. Ex: 000001 (6 digits)</value>
+  </data>
+  <data name="GerarSintaxe_msg1407" xml:space="preserve">
+    <value>The Correct format of NEURAL NETWORK to be performed is  &lt;neural network code&gt;. Ex: 000001 (6 digits)</value>
+  </data>
+  <data name="GerarSintaxe_msg1408" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1409" xml:space="preserve">
+    <value>Neural Network [ ##TOKEN1## ] does not exist</value>
+  </data>
+  <data name="GerarSintaxe_msg1501" xml:space="preserve">
+    <value>It is mandatory to enter a 'Keyword'</value>
+  </data>
+  <data name="GerarSintaxe_msg1503" xml:space="preserve">
+    <value>It is mandatory to enter a 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1505" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for 'Command' SE. Options: = &gt; &gt;= &lt; &lt;= &lt;&gt; LIKE</value>
+  </data>
+  <data name="GerarSintaxe_msg1506" xml:space="preserve">
+    <value>Invalid 'Continue' '##TOKEN1##' for 'Command' SE. Options: empty, 'E' or 'OU'</value>
+  </data>
+  <data name="GerarSintaxe_msg1507" xml:space="preserve">
+    <value>Qualifiers are not allowed in 'Keyword' in SE command. Use in 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1508" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] only store items with data type from keyword '##TOKEN2##'</value>
+  </data>
+  <data name="GerarSintaxe_msg1509" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] does not exist in this Simulation Package</value>
+  </data>
+  <data name="GerarSintaxe_msg1510" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for 'Command' SE. Options: = &lt;&gt;</value>
+  </data>
+  <data name="GerarSintaxe_msg1511" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg1512" xml:space="preserve">
+    <value>'Constant' literal for this Keyword must have ##TOKEN1## leading zeros</value>
+  </data>
+  <data name="GerarSintaxe_msg1513" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for SE command using Keyword/Constant with Alphanumeric content. Options: = &lt;&gt;</value>
+  </data>
+  <data name="GerarSintaxe_msg1514" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg1515" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg1516" xml:space="preserve">
+    <value>SE command, using dates, allows mathematical operation only between two 'dates' or two 'times'</value>
+  </data>
+  <data name="GerarSintaxe_msg1517" xml:space="preserve">
+    <value>The Correct format for DATE in 'Constant' literal is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg1518" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] only store items with data type from keyword '##TOKEN2##'</value>
+  </data>
+  <data name="GerarSintaxe_msg1519" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] does not exist</value>
+  </data>
+  <data name="GerarSintaxe_msg1520" xml:space="preserve">
+    <value>Numbers entered in 'Constant' do not represent a time. The correct format for TIME is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg1521" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1522" xml:space="preserve">
+    <value>'Command' is mandatory</value>
+  </data>
+  <data name="GerarSintaxe_msg1523" xml:space="preserve">
+    <value>In the expression ##TOKEN1## is mandatory an operator 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1524" xml:space="preserve">
+    <value>'Command' ##TOKEN1## cannot contain complements</value>
+  </data>
+  <data name="GerarSintaxe_msg1525" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1526" xml:space="preserve">
+    <value>SENAO command does not belong to any SE</value>
+  </data>
+  <data name="GerarSintaxe_msg1527" xml:space="preserve">
+    <value>'SE' command does not allow more than one 'SENAO'</value>
+  </data>
+  <data name="GerarSintaxe_msg1528" xml:space="preserve">
+    <value>Numbers entered in 'Constant' do not represent a date. The correct format for DATE is ##TOKEN1##
+</value>
+  </data>
+  <data name="GerarSintaxe_msg1529" xml:space="preserve">
+    <value>The Correct format for TIME in 'Constant' literal is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg1530" xml:space="preserve">
+    <value>FIM SE without SE</value>
+  </data>
+  <data name="GerarSintaxe_msg1531" xml:space="preserve">
+    <value>SE without FIM SE</value>
+  </data>
+  <data name="GerarSintaxe_msg1532" xml:space="preserve">
+    <value>SE command must have any Expression</value>
+  </data>
+  <data name="GerarSintaxe_msg1533" xml:space="preserve">
+    <value>SE command must have any Expression before its SENAO</value>
+  </data>
+  <data name="GerarSintaxe_msg1534" xml:space="preserve">
+    <value>SENAO command must have any Expression before its FIM SE</value>
+  </data>
+  <data name="GerarSintaxe_msg1535" xml:space="preserve">
+    <value>SE command, using dates, allows mathematical operation only between two 'dates' or two 'times'</value>
+  </data>
+  <data name="GerarSintaxe_msg1538" xml:space="preserve">
+    <value>'Command' ##TOKEN1## cannot contain complements</value>
+  </data>
+  <data name="GerarSintaxe_msg1539" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1540" xml:space="preserve">
+    <value>'Constant' '##TOKEN1##' for LIKE Operator must be a text enclosed in quotation marks and must have a wildcard character %</value>
+  </data>
+  <data name="GerarSintaxe_msg1541" xml:space="preserve">
+    <value>The text entered '##TOKEN1##' in the LIKE Operator must contain a wildcard character % at the beginning and/or at the end of the text to search for</value>
+  </data>
+  <data name="GerarSintaxe_msg1542" xml:space="preserve">
+    <value>The text entered '##TOKEN1##' in the LIKE Operator must contain some relevant search content, not just wildcards %</value>
+  </data>
+  <data name="GerarSintaxe_msg1543" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for 'Command' SE using keywords with BIT behavior. Options: = &lt;&gt;</value>
+  </data>
+  <data name="GerarSintaxe_msg1544" xml:space="preserve">
+    <value>'Constant' '##TOKEN1##' for 'Command' SE using keywords with BIT behavior must be a text enclosed in quotation marks</value>
+  </data>
+  <data name="GerarSintaxe_msg1545" xml:space="preserve">
+    <value>'Constant' entered using keywords with BIT behavior must be, enclosed in quotation marks, only TRUE or FALSE</value>
+  </data>
+  <data name="GerarSintaxe_msg1601" xml:space="preserve">
+    <value>It is mandatory to enter a 'Keyword'</value>
+  </data>
+  <data name="GerarSintaxe_msg1603" xml:space="preserve">
+    <value>It is mandatory to enter a 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1605" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for 'Command' CALCULA. Options: = + - * / %
+</value>
+  </data>
+  <data name="GerarSintaxe_msg1606" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' CALCULA. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg1607" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg1608" xml:space="preserve">
+    <value>CALCULA command, using dates, only the 'Operator' '##TOKEN1##' is allowed</value>
+  </data>
+  <data name="GerarSintaxe_msg1609" xml:space="preserve">
+    <value>CALCULA command, using dates, allows mathematical operation only between two 'dates' or two 'times'</value>
+  </data>
+  <data name="GerarSintaxe_msg1610" xml:space="preserve">
+    <value>CALCULA command requires a Keyword that can be changeable</value>
+  </data>
+  <data name="GerarSintaxe_msg1611" xml:space="preserve">
+    <value>Data Type (##TOKEN1##) of the Keyword entered  is not compatible with CALCULA command</value>
+  </data>
+  <data name="GerarSintaxe_msg1612" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1613" xml:space="preserve">
+    <value>CALCULA command, using dates, allows mathematical operation only between two 'dates' or two 'times'</value>
+  </data>
+  <data name="GerarSintaxe_msg1614" xml:space="preserve">
+    <value>CALCULA command does not allow Content update in keyword with end ##TOKEN1## </value>
+  </data>
+  <data name="GerarSintaxe_msg1615" xml:space="preserve">
+    <value>CALCULA command has no Defintion of Calculation  using '##TOKEN1##' is 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1701" xml:space="preserve">
+    <value>It is mandatory  to enter a 'Keyword'</value>
+  </data>
+  <data name="GerarSintaxe_msg1703" xml:space="preserve">
+    <value>It is mandatory  to enter a 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1705" xml:space="preserve">
+    <value>Invalid 'Operator' for 'Command' MOVE. Must be '='</value>
+  </data>
+  <data name="GerarSintaxe_msg1706" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' MOVE. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg1707" xml:space="preserve">
+    <value>Keyword '##TOKEN1##' does not allow change its content</value>
+  </data>
+  <data name="GerarSintaxe_msg1708" xml:space="preserve">
+    <value>Content type of 'Keyword' (##TOKEN1##) and 'Constant' (##TOKEN2##) must be identical</value>
+  </data>
+  <data name="GerarSintaxe_msg1709" xml:space="preserve">
+    <value>Keyword '##TOKEN1##' can only get contents of '##TOKEN2##'</value>
+  </data>
+  <data name="GerarSintaxe_msg1710" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1801" xml:space="preserve">
+    <value>It is mandatory  to enter a 'Keyword'</value>
+  </data>
+  <data name="GerarSintaxe_msg1803" xml:space="preserve">
+    <value>Qualifiers only accept Keywords</value>
+  </data>
+  <data name="GerarSintaxe_msg1804" xml:space="preserve">
+    <value>Qualifier is mandatory in 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg1806" xml:space="preserve">
+    <value>'Constant' [ ##TOKEN1## ] is not a Qualifier</value>
+  </data>
+  <data name="GerarSintaxe_msg1807" xml:space="preserve">
+    <value>Invalid 'Operator' for 'Command' ##TOKEN1##. Must be '@'</value>
+  </data>
+  <data name="GerarSintaxe_msg1808" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' ##TOKEN1##. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg1811" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] only store items with data type from keyword '##TOKEN2##'</value>
+  </data>
+  <data name="GerarSintaxe_msg1812" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] does not exist in this Simulation Package</value>
+  </data>
+  <data name="GerarSintaxe_msg1813" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg1814" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] only store items with data type from keyword '##TOKEN2##'</value>
+  </data>
+  <data name="GerarSintaxe_msg1815" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] does not exist</value>
+  </data>
+  <data name="GerarSintaxe_msg1901" xml:space="preserve">
+    <value>'Command' ##TOKEN1## cannot contain complements</value>
+  </data>
+  <data name="GerarSintaxe_msg1902" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg2001" xml:space="preserve">
+    <value>Keyword, Recorder or Literal Constant is required</value>
+  </data>
+  <data name="GerarSintaxe_msg2002" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg2004" xml:space="preserve">
+    <value>Command ##TOKEN1## only can use a Keyword, a Recorder or a Literal Constant</value>
+  </data>
+  <data name="GerarSintaxe_msg2101" xml:space="preserve">
+    <value>Rule must contain Expressions</value>
+  </data>
+  <data name="GerarSintaxe_msg2102" xml:space="preserve">
+    <value>Rule must have a FIM REGRA command at the end</value>
+  </data>
+  <data name="GerarSintaxe_msg2201" xml:space="preserve">
+    <value>##TOKEN1## command requires, at least, Parameter 01</value>
+  </data>
+  <data name="GerarSintaxe_msg2202" xml:space="preserve">
+    <value>Parameter 01 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2203" xml:space="preserve">
+    <value>Parameter 01 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2204" xml:space="preserve">
+    <value>Parameter 02 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2205" xml:space="preserve">
+    <value>Parameter 02 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2206" xml:space="preserve">
+    <value>Parameter 03 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2207" xml:space="preserve">
+    <value>Parameter 03 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2208" xml:space="preserve">
+    <value>Command ##TOKEN1## only allows up to 3 parameters</value>
+  </data>
+  <data name="GerarSintaxe_msg2209" xml:space="preserve">
+    <value>Last expression of a SE cannot contain a logical operator in 'Continue'</value>
+  </data>
+  <data name="GerarSintaxe_msg2210" xml:space="preserve">
+    <value>Parameter 01 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2211" xml:space="preserve">
+    <value>Parameter 02 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2212" xml:space="preserve">
+    <value>Parameter 03 [ ##TOKEN1## ] must be enclosed in quotation marks in the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2213" xml:space="preserve">
+    <value>Parameter 01 '##TOKEN1##' cannot exceed 40 chacacters including quotation marks</value>
+  </data>
+  <data name="GerarSintaxe_msg2214" xml:space="preserve">
+    <value>Parameter 02 '##TOKEN1##' cannot exceed 40 chacacters including quotation marks</value>
+  </data>
+  <data name="GerarSintaxe_msg2215" xml:space="preserve">
+    <value>Parameter 03 '##TOKEN1##' cannot exceed 40 chacacters including quotation marks</value>
+  </data>
+  <data name="GerarSintaxe_msg2216" xml:space="preserve">
+    <value>??? O Código Configuração Mensagem informado na Expressão [ ##TOKEN1## ] deve ser Maior que ZERO e Menor que 2.147.483.647</value>
+  </data>
+  <data name="GerarSintaxe_msg2218" xml:space="preserve">
+    <value>??? O Código Configuração Mensagem informado na Expressão [ ##TOKEN1## ] não pode ser utilizado. ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2219" xml:space="preserve">
+    <value>??? O Código Configuração Mensagem informado na Expressão [ ##TOKEN1## ] deve ser Numérico</value>
+  </data>
+  <data name="GerarSintaxe_msg2301" xml:space="preserve">
+    <value>Command ##TOKEN1## MUST be followed by the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2302" xml:space="preserve">
+    <value>Command ##TOKEN1## MUST be followed by the command ##TOKEN2##</value>
+  </data>
+  <data name="GerarSintaxe_msg2401" xml:space="preserve">
+    <value>It is mandatory  to enter a 'Keyword'</value>
+  </data>
+  <data name="GerarSintaxe_msg2402" xml:space="preserve">
+    <value>##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg2403" xml:space="preserve">
+    <value>It is mandatory  to enter a 'Constant'</value>
+  </data>
+  <data name="GerarSintaxe_msg2405" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for 'Command' TRSCONTAR. Options: = &gt; &gt;= &lt; &lt;= &lt;&gt; LIKE</value>
+  </data>
+  <data name="GerarSintaxe_msg2406" xml:space="preserve">
+    <value>Invalid 'Continue' for 'Command' TRSCONTAR. Must be empty</value>
+  </data>
+  <data name="GerarSintaxe_msg2408" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] only store items with data type from keyword '##TOKEN2##'</value>
+  </data>
+  <data name="GerarSintaxe_msg2409" xml:space="preserve">
+    <value>Qualifier [ ##TOKEN1## ] does not exist in this Simulation Package</value>
+  </data>
+  <data name="GerarSintaxe_msg2410" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for 'Command' TRSCONTAR using Qualifier. Options: = &lt;&gt;</value>
+  </data>
+  <data name="GerarSintaxe_msg2411" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg2412" xml:space="preserve">
+    <value>'Constant' literal for this Keyword must have ##TOKEN1## leading zeros</value>
+  </data>
+  <data name="GerarSintaxe_msg2413" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for TRSCONTAR command using Keyword/Constant with Alphanumeric content. Options: = &lt;&gt; LIKE</value>
+  </data>
+  <data name="GerarSintaxe_msg2414" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg2415" xml:space="preserve">
+    <value>Data Type of 'Constant' entered (##TOKEN1##) does not match with the Data Type of 'Keyword' (##TOKEN2##)</value>
+  </data>
+  <data name="GerarSintaxe_msg2416" xml:space="preserve">
+    <value>SE command, using dates, allows mathematical operation only between two 'dates' or two 'times'</value>
+  </data>
+  <data name="GerarSintaxe_msg2417" xml:space="preserve">
+    <value>The Correct format for DATE in 'Constant' literal is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg2418" xml:space="preserve">
+    <value>Numbers entered in 'Constant' do not represent a date. The correct format for DATE is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg2419" xml:space="preserve">
+    <value>The Correct format for TIME in 'Constant' literal is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg2420" xml:space="preserve">
+    <value>Numbers entered in 'Constant' do not represent a time. The correct format for TIME is ##TOKEN1##</value>
+  </data>
+  <data name="GerarSintaxe_msg2421" xml:space="preserve">
+    <value>TRSCONTAR needs to be finished with FIM TRSCONTAR</value>
+  </data>
+  <data name="GerarSintaxe_msg2422" xml:space="preserve">
+    <value>'Command' is mandatory</value>
+  </data>
+  <data name="GerarSintaxe_msg2423" xml:space="preserve">
+    <value>'Command' ##TOKEN1## cannot contain complements</value>
+  </data>
+  <data name="GerarSintaxe_msg2424" xml:space="preserve">
+    <value>FIM TRSCONTAR without TRSCONTAR</value>
+  </data>
+  <data name="GerarSintaxe_msg2425" xml:space="preserve">
+    <value>Keyword '##TOKEN1##' is not allowed as Filter in TRSCONTAR command</value>
+  </data>
+  <data name="GerarSintaxe_msg2426" xml:space="preserve">
+    <value>Only 'Keywords' ('##TOKEN1##') are allowed in TRSCONTAR command</value>
+  </data>
+  <data name="GerarSintaxe_msg2427" xml:space="preserve">
+    <value>SE command, using dates, allows mathematical operation only between two 'dates' or two 'times'</value>
+  </data>
+  <data name="GerarSintaxe_msg2428" xml:space="preserve">
+    <value>Invalid 'Operator' '##TOKEN1##' for parameter '##TOKEN2##' in TRSCONTAR command. Options: =</value>
+  </data>
+  <data name="GerarSintaxe_msg2429" xml:space="preserve">
+    <value>Parameter '##TOKEN1##' in TRSCONTAR command only accepts a number less than or equal Zero</value>
+  </data>
+  <data name="GerarSintaxe_msg2430" xml:space="preserve">
+    <value>Parameter '##TOKEN1##' in TRSCONTAR command only accepts a INTEGER number</value>
+  </data>
+  <data name="GerarSintaxe_msg2431" xml:space="preserve">
+    <value>Invalid Value '##TOKEN1##' at parameter '##TOKEN2##' in TRSCONTAR command. Must be a number less than or Equal to Zero</value>
+  </data>
+  <data name="GerarSintaxe_msg2432" xml:space="preserve">
+    <value>Value '##TOKEN1##' of the parameter '##TOKEN2##' in TRSCONTAR command must be less than or equal to Zero</value>
+  </data>
+  <data name="GerarSintaxe_msg2433" xml:space="preserve">
+    <value>Invalid Value '##TOKEN1##' at parameter '##TOKEN2##' in TRSCONTAR command. Must be a number less than or Equal to Zero</value>
+  </data>
+  <data name="GerarSintaxe_msg2434" xml:space="preserve">
+    <value>Parameter 'PERIODOTERMINO' in TRSCONTAR command must be ##TOKEN1## parameter 'PERIODOINICIO'</value>
+  </data>
+  <data name="GerarSintaxe_msg2440" xml:space="preserve">
+    <value>'Constant' '##TOKEN1##' for LIKE Operator must be a text enclosed in quotation marks and must have a wildcard character %</value>
+  </data>
+  <data name="GerarSintaxe_msg2441" xml:space="preserve">
+    <value>The text entered '##TOKEN1##' in the LIKE Operator must contain a wildcard character % at the beginning and/or at the end of the text to search for</value>
+  </data>
+  <data name="GerarSintaxe_msg2442" xml:space="preserve">
+    <value>The text entered '##TOKEN1##' in the LIKE Operator must contain some relevant search content, not just wildcards %</value>
+  </data>
+  <data name="GerarSintaxe_msg2443" xml:space="preserve">
+    <value>Parameter 'PERIODOINICIO' is mandatory in TRSCONTAR command</value>
+  </data>
+  <data name="GerarSintaxe_msg2444" xml:space="preserve">
+    <value>Parameter 'PERIODOTERMINO' is mandatory in TRSCONTAR command</value>
+  </data>
+  <data name="GerarSintaxe_msg2445" xml:space="preserve">
+    <value>TRSCONTAR without FIM TRSCONTAR</value>
+  </data>
+  <data name="GerarSintaxe_msg2999" xml:space="preserve">
+    <value>Invalid 'Command' '##TOKEN1##'</value>
+  </data>
+  <data name="ObtemIdentificadorTipo_msg01" xml:space="preserve">
+    <value>Number entered in Expression [ ##TOKEN1## ] is above the allowed limit  (Limit = 999.999.999.999.999.999)</value>
+  </data>
+  <data name="ObtemIdentificadorTipo_msg02" xml:space="preserve">
+    <value>'Constant' Alphanumeric '##TOKEN1##' must be a text enclosed in quotation marks</value>
+  </data>
+  <data name="ObtemIdentificadorTipo_msg03" xml:space="preserve">
+    <value>Keyword [ ##TOKEN1## ] cannot be used in Rule Expression Constructor</value>
+  </data>
+  <data name="ObtemIdentificadorTipo_msg04" xml:space="preserve">
+    <value>Keyword, Recorder or Qualifier '##TOKEN1##' does not exist in this Simulation Package ID ##TOKEN2##</value>
+  </data>
+  <data name="ObtemIdentificadorTipo_msg05" xml:space="preserve">
+    <value>Keyword, Recorder or Qualifier '##TOKEN1##' does not exist</value>
+  </data>
+  <data name="PreChecagemAlteracaoStatusAtivo_IRPARA_Producao_msgNaoAlterarStatus" xml:space="preserve">
+    <value>Active Status fo this Rule cannot be changed because there are IR PARA commands referencing this Rule. They are in: </value>
+  </data>
+  <data name="PreChecagemAlteracaoStatusAtivo_IRPARA_Simulacao_msgNaoAlterarStatus" xml:space="preserve">
+    <value>Active Status fo this Rule cannot be changed because there are IR PARA commands referencing this Rule. They are in:</value>
+  </data>
+</root>

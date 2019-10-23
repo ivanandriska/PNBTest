@@ -1,0 +1,526 @@
+﻿<SRT>
+  <Header>
+    <Campo nome="programa"              tipoDados="2"            tamanho="8"        propriedade="Programa"        />
+    <Campo nome="resposta"              tipoDados="1"            tamanho="4"        propriedade="Resposta"        />
+    <Campo nome="mensagem"              tipoDados="2"            tamanho="80"       propriedade="Mensagem"        />
+    <Campo nome="usuario"               tipoDados="2"            tamanho="8"        propriedade="UsuarioManutencao"/>
+    <Campo nome="indicadorPagina"       tipoDados="2"            tamanho="1"        propriedade="IndicadorPagina" />
+    <Campo nome="paginaSeguinte"        tipoDados="2"            tamanho="1"        propriedade="PaginaSeguinte"  />
+    <Campo nome="paginaAnterior"        tipoDados="2"            tamanho="1"        propriedade="PaginaAnterior"  />
+    <Campo nome="registrosPorPagina"    tipoDados="1"            tamanho="3"        propriedade="RegistrosPorPagina"  />
+  </Header>
+  <RamoAtividade>
+    <Acao nome="Incluir"                programa="ZROB006S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="4"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB008S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="4"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB007S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="4"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB009S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="4"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB010S"       tipo="1"          registrosPorPagina="50"  >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="4"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="4"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+  </RamoAtividade>
+
+  <Moeda>
+    <Acao nome="Incluir"                programa="ZROB001S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB003S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB002S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB004S"       tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB005S"       tipo="1"          registrosPorPagina="50"  >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"      propriedade="Descricao"         />
+    </Acao>
+  </Moeda>
+
+  <CodigoPais>
+    <Acao nome="Incluir"                programa="ZROB016S"        tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="30"      propriedade="Descricao"         />
+      <Campo nome="regionCodeVisa"      tipoDados="2"             tamanho="9"       propriedade="RegionCodeVisa"    />
+      <Campo nome="regionCodeMaster"    tipoDados="2"             tamanho="1"       propriedade="RegionCodeMaster"  />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB018S"        tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="30"      propriedade="Descricao"         />
+      <Campo nome="regionCodeVisa"      tipoDados="2"             tamanho="9"       propriedade="RegionCodeVisa"    />
+      <Campo nome="regionCodeMaster"    tipoDados="2"             tamanho="1"       propriedade="RegionCodeMaster"  />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB017S"        tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="30"      propriedade="Descricao"         />
+      <Campo nome="regionCodeVisa"      tipoDados="2"             tamanho="9"       propriedade="RegionCodeVisa"    />
+      <Campo nome="regionCodeMaster"    tipoDados="2"             tamanho="1"       propriedade="RegionCodeMaster"  />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB019S"        tipo="1"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="30"      propriedade="Descricao"         />
+      <Campo nome="regionCodeVisa"      tipoDados="2"             tamanho="9"       propriedade="RegionCodeVisa"    />
+      <Campo nome="regionCodeMaster"    tipoDados="2"             tamanho="1"       propriedade="RegionCodeMaster"  />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB020S"       tipo="1"          registrosPorPagina="50"  >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="30"      propriedade="Descricao"         />
+      <Campo nome="regionCodeVisa"      tipoDados="2"             tamanho="9"       propriedade="RegionCodeVisa"    />
+      <Campo nome="regionCodeMaster"    tipoDados="2"             tamanho="1"       propriedade="RegionCodeMaster"  />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                           >
+      <Campo nome="codigo"              tipoDados="1"             tamanho="3"       propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="30"      propriedade="Descricao"         />
+      <Campo nome="regionCodeVisa"      tipoDados="2"             tamanho="9"       propriedade="RegionCodeVisa"    />
+      <Campo nome="regionCodeMaster"    tipoDados="2"             tamanho="1"       propriedade="RegionCodeMaster"  />
+    </Acao>
+  </CodigoPais>
+
+  <Resposta>
+    <Acao nome="Incluir"                programa="ZROB011S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="resposta"            tipoDados="2"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+
+    <Acao nome="Consultar"              programa="ZROB013S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="resposta"            tipoDados="2"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB012S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="resposta"            tipoDados="2"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB014S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="resposta"            tipoDados="2"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB015S"       tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="resposta"            tipoDados="2"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="resposta"            tipoDados="2"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+  </Resposta>
+
+  <DataElemento>
+    <Acao nome="Incluir"                programa="ZROB021S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="elemento"            tipoDados="1"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB023S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="elemento"            tipoDados="1"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB022S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="elemento"            tipoDados="1"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB024S"       tipo="1"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="elemento"            tipoDados="1"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB025S"       tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="elemento"            tipoDados="1"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="bandeira"            tipoDados="2"             tamanho="1"        propriedade="CodigoBandeira"    />
+      <Campo nome="elemento"            tipoDados="1"             tamanho="3"        propriedade="Codigo"            />
+      <Campo nome="descricao"           tipoDados="2"             tamanho="40"       propriedade="Descricao"         />
+      <Campo nome="descricaoBandeira"   tipoDados="2"             tamanho="20"       propriedade="DescricaoBandeira" />
+    </Acao>
+  </DataElemento>
+
+  <CEP>
+    <Acao nome="Incluir"                programa="ZROB031S"        tipo="1"                                                   >
+      <Campo nome="cep"                 tipoDados="1"             tamanho="8"        propriedade="Cep"               />
+      <Campo nome="cidade"              tipoDados="2"             tamanho="40"       propriedade="Cidade"            />
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"                />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB033S"        tipo="1"                                            >
+      <Campo nome="cep"                 tipoDados="1"             tamanho="8"        propriedade="Cep"               />
+      <Campo nome="cidade"              tipoDados="2"             tamanho="40"       propriedade="Cidade"            />
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"                />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB032S"        tipo="1"                                            >
+      <Campo nome="cep"                 tipoDados="1"             tamanho="8"        propriedade="Cep"               />
+      <Campo nome="cidade"              tipoDados="2"             tamanho="40"       propriedade="Cidade"            />
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"                />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB034S"        tipo="1"                                            >
+      <Campo nome="cep"                 tipoDados="1"             tamanho="8"        propriedade="Cep"               />
+      <Campo nome="cidade"              tipoDados="2"             tamanho="40"       propriedade="Cidade"            />
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"                />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB035S"        tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="cep"                 tipoDados="1"             tamanho="8"        propriedade="Cep"               />
+      <Campo nome="cidade"              tipoDados="2"             tamanho="40"       propriedade="Cidade"            />
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"                />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="cep"                 tipoDados="1"             tamanho="8"        propriedade="Cep"               />
+      <Campo nome="cidade"              tipoDados="2"             tamanho="40"       propriedade="Cidade"            />
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"                />
+    </Acao>
+  </CEP>
+
+  <ReasonCode>
+    <Acao nome="Incluir"                programa="ZROB026S"        tipo="1"                                            >
+      <Campo nome="reasonCode"          tipoDados="1"             tamanho="3"        propriedade="Reasoncode"        />
+      <Campo nome="dataManut"           tipoDados="3"             tamanho="8"        propriedade="DataManutencao"     formato="ddMMyyyy"    />
+      <Campo nome="horaManut"           tipoDados="4"             tamanho="6"        propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="descrCurta"          tipoDados="2"             tamanho="10"       propriedade="DescricaoCurta"    />
+      <Campo nome="descrLonga"          tipoDados="2"             tamanho="25"       propriedade="DescricaoLonga"    />
+      <Campo nome="cicsOrigem"          tipoDados="2"             tamanho="8"        propriedade="CicsOrigem"        />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB028S"        tipo="1"                                            >
+      <Campo nome="reasonCode"          tipoDados="1"             tamanho="3"        propriedade="Reasoncode"        />
+      <Campo nome="dataManut"           tipoDados="3"             tamanho="8"        propriedade="DataManutencao"     formato="ddMMyyyy"    />
+      <Campo nome="horaManut"           tipoDados="4"             tamanho="6"        propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="descrCurta"          tipoDados="2"             tamanho="10"       propriedade="DescricaoCurta"    />
+      <Campo nome="descrLonga"          tipoDados="2"             tamanho="25"       propriedade="DescricaoLonga"    />
+      <Campo nome="cicsOrigem"          tipoDados="2"             tamanho="8"        propriedade="CicsOrigem"        />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB027S"        tipo="1"                                            >
+      <Campo nome="reasonCode"          tipoDados="1"             tamanho="3"        propriedade="Reasoncode"        />
+      <Campo nome="dataManut"           tipoDados="3"             tamanho="8"        propriedade="DataManutencao"     formato="ddMMyyyy"    />
+      <Campo nome="horaManut"           tipoDados="4"             tamanho="6"        propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="descrCurta"          tipoDados="2"             tamanho="10"       propriedade="DescricaoCurta"    />
+      <Campo nome="descrLonga"          tipoDados="2"             tamanho="25"       propriedade="DescricaoLonga"    />
+      <Campo nome="cicsOrigem"          tipoDados="2"             tamanho="8"        propriedade="CicsOrigem"        />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB029S"        tipo="1"                                            >
+      <Campo nome="reasonCode"          tipoDados="1"             tamanho="3"        propriedade="Reasoncode"        />
+      <Campo nome="dataManut"           tipoDados="3"             tamanho="8"        propriedade="DataManutencao"     formato="ddMMyyyy"    />
+      <Campo nome="horaManut"           tipoDados="4"             tamanho="6"        propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="descrCurta"          tipoDados="2"             tamanho="10"       propriedade="DescricaoCurta"    />
+      <Campo nome="descrLonga"          tipoDados="2"             tamanho="25"       propriedade="DescricaoLonga"    />
+      <Campo nome="cicsOrigem"          tipoDados="2"             tamanho="8"        propriedade="CicsOrigem"        />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB030S"        tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="reasonCode"          tipoDados="1"             tamanho="3"        propriedade="Reasoncode"        />
+      <Campo nome="dataManut"           tipoDados="3"             tamanho="8"        propriedade="DataManutencao"     formato="ddMMyyyy"    />
+      <Campo nome="horaManut"           tipoDados="4"             tamanho="6"        propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="descrCurta"          tipoDados="2"             tamanho="10"       propriedade="DescricaoCurta"    />
+      <Campo nome="descrLonga"          tipoDados="2"             tamanho="25"       propriedade="DescricaoLonga"    />
+      <Campo nome="cicsOrigem"          tipoDados="2"             tamanho="8"        propriedade="CicsOrigem"        />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="reasonCode"          tipoDados="1"             tamanho="3"        propriedade="Reasoncode"        />
+      <Campo nome="dataManut"           tipoDados="3"             tamanho="8"        propriedade="DataManutencao"     formato="ddMMyyyy"    />
+      <Campo nome="horaManut"           tipoDados="4"             tamanho="6"        propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="descrCurta"          tipoDados="2"             tamanho="10"       propriedade="DescricaoCurta"    />
+      <Campo nome="descrLonga"          tipoDados="2"             tamanho="25"       propriedade="DescricaoLonga"    />
+      <Campo nome="cicsOrigem"          tipoDados="2"             tamanho="8"        propriedade="CicsOrigem"        />
+    </Acao>
+  </ReasonCode>
+
+  <UfPorFaixaCEP>
+    <Acao nome="Listar"                 programa="ZROB036S"        tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"               />
+      <Campo nome="cepDe"               tipoDados="1"             tamanho="8"        propriedade="CepDe"             />
+      <Campo nome="cepAte"              tipoDados="1"             tamanho="8"        propriedade="CepAte"            />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="uf"                  tipoDados="2"             tamanho="2"        propriedade="Uf"               />
+      <Campo nome="cepDe"               tipoDados="1"             tamanho="8"        propriedade="CepDe"             />
+      <Campo nome="cepAte"              tipoDados="1"             tamanho="8"        propriedade="CepAte"            />
+    </Acao>
+  </UfPorFaixaCEP>
+  
+  <FaixaCartaoGPOCorporProdSubProd>
+    <Acao nome="Incluir"                programa="ZROB042S"        tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="corporacao"          tipoDados="1"             tamanho="2"        propriedade="Corporacao"        />
+      <Campo nome="produto"             tipoDados="2"             tamanho="3"        propriedade="Produto"           />
+      <Campo nome="subProduto"          tipoDados="2"             tamanho="3"        propriedade="SubProduto"        />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB044S"        tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="corporacao"          tipoDados="1"             tamanho="2"        propriedade="Corporacao"        />
+      <Campo nome="produto"             tipoDados="2"             tamanho="3"        propriedade="Produto"           />
+      <Campo nome="subProduto"          tipoDados="2"             tamanho="3"        propriedade="SubProduto"        />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB043S"        tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="corporacao"          tipoDados="1"             tamanho="2"        propriedade="Corporacao"        />
+      <Campo nome="produto"             tipoDados="2"             tamanho="3"        propriedade="Produto"           />
+      <Campo nome="subProduto"          tipoDados="2"             tamanho="3"        propriedade="SubProduto"        />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB045S"        tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="corporacao"          tipoDados="1"             tamanho="2"        propriedade="Corporacao"        />
+      <Campo nome="produto"             tipoDados="2"             tamanho="3"        propriedade="Produto"           />
+      <Campo nome="subProduto"          tipoDados="2"             tamanho="3"        propriedade="SubProduto"        />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB046S"        tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="corporacao"          tipoDados="1"             tamanho="2"        propriedade="Corporacao"        />
+      <Campo nome="produto"             tipoDados="2"             tamanho="3"        propriedade="Produto"           />
+      <Campo nome="subProduto"          tipoDados="2"             tamanho="3"        propriedade="SubProduto"        />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="corporacao"          tipoDados="1"             tamanho="2"        propriedade="Corporacao"        />
+      <Campo nome="produto"             tipoDados="2"             tamanho="3"        propriedade="Produto"           />
+      <Campo nome="subProduto"          tipoDados="2"             tamanho="3"        propriedade="SubProduto"        />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+  </FaixaCartaoGPOCorporProdSubProd>
+
+  <CodigoBloqueio>
+    <Acao nome="Incluir"                programa="ZROB052S"        tipo="1"                                            >
+      <Campo nome="bloqueio"            tipoDados="1"             tamanho="3"        propriedade="Bloqueio"          />
+      <Campo nome="descricaoBloqueioV"  tipoDados="2"             tamanho="27"       propriedade="DescricaoBloqueioV"/>
+      <Campo nome="codigoBloqueio"      tipoDados="2"             tamanho="1"        propriedade="CodigoBloqueioV"    />
+      <Campo nome="cartaoFalsificado"   tipoDados="2"             tamanho="1"        propriedade="CartaoFalsificado" />
+      <Campo nome="codigoRazao"         tipoDados="2"             tamanho="1"        propriedade="CodigoRazao"       />
+      <Campo nome="codigoAcaoV"         tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoV"       />
+      <Campo nome="dataExpurgo"         tipoDados="3"             tamanho="8"        propriedade="DataExpurgo"       formato="ddMMyyyy"    />
+      <Campo nome="codigoRegiaoVisa"    tipoDados="2"             tamanho="9"        propriedade="CodigoRegiaoVisa"  />
+      <Campo nome="codigoRegiaoMaster"  tipoDados="2"             tamanho="6"        propriedade="CodigoRegiaoMaster"/>
+      <Campo nome="listaRestritiva"     tipoDados="2"             tamanho="1"        propriedade="ListaRestritiva"   />
+      <Campo nome="pracaNegativacao"    tipoDados="2"             tamanho="24"       propriedade="PracaNegativacao"   />
+      <Campo nome="codigoBloqueioB2K"   tipoDados="2"             tamanho="2"        propriedade="CodigoBloqueioB2K" />
+      <Campo nome="motivoCancelamento"  tipoDados="1"             tamanho="3"        propriedade="MotivoCancelamento"/>
+      <Campo nome="motivoRoubo"         tipoDados="2"             tamanho="1"        propriedade="MotivoRoubo"       />
+      <Campo nome="codigoAcaoB2K"       tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoB2K"     />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB054S"        tipo="1"                                            >
+      <Campo nome="bloqueio"            tipoDados="1"             tamanho="3"        propriedade="Bloqueio"          />
+      <Campo nome="descricaoBloqueioV"  tipoDados="2"             tamanho="27"       propriedade="DescricaoBloqueioV"/>
+      <Campo nome="codigoBloqueio"      tipoDados="2"             tamanho="1"        propriedade="CodigoBloqueioV"    />
+      <Campo nome="cartaoFalsificado"   tipoDados="2"             tamanho="1"        propriedade="CartaoFalsificado" />
+      <Campo nome="codigoRazao"         tipoDados="2"             tamanho="1"        propriedade="CodigoRazao"       />
+      <Campo nome="codigoAcaoV"         tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoV"       />
+      <Campo nome="dataExpurgo"         tipoDados="3"             tamanho="8"        propriedade="DataExpurgo"       formato="ddMMyyyy"    />
+      <Campo nome="codigoRegiaoVisa"    tipoDados="2"             tamanho="9"        propriedade="CodigoRegiaoVisa"  />
+      <Campo nome="codigoRegiaoMaster"  tipoDados="2"             tamanho="6"        propriedade="CodigoRegiaoMaster"/>
+      <Campo nome="listaRestritiva"     tipoDados="2"             tamanho="1"        propriedade="ListaRestritiva"   />
+      <Campo nome="pracaNegativacao"    tipoDados="2"             tamanho="24"       propriedade="PracaNegativacao"   />
+      <Campo nome="codigoBloqueioB2K"   tipoDados="2"             tamanho="2"        propriedade="CodigoBloqueioB2K" />
+      <Campo nome="motivoCancelamento"  tipoDados="1"             tamanho="3"        propriedade="MotivoCancelamento"/>
+      <Campo nome="motivoRoubo"         tipoDados="2"             tamanho="1"        propriedade="MotivoRoubo"       />
+      <Campo nome="codigoAcaoB2K"       tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoB2K"     />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB053S"        tipo="1"                                            >
+      <Campo nome="bloqueio"            tipoDados="1"             tamanho="3"        propriedade="Bloqueio"          />
+      <Campo nome="descricaoBloqueioV"  tipoDados="2"             tamanho="27"       propriedade="DescricaoBloqueioV"/>
+      <Campo nome="codigoBloqueio"      tipoDados="2"             tamanho="1"        propriedade="CodigoBloqueioV"    />
+      <Campo nome="cartaoFalsificado"   tipoDados="2"             tamanho="1"        propriedade="CartaoFalsificado" />
+      <Campo nome="codigoRazao"         tipoDados="2"             tamanho="1"        propriedade="CodigoRazao"       />
+      <Campo nome="codigoAcaoV"         tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoV"       />
+      <Campo nome="dataExpurgo"         tipoDados="3"             tamanho="8"        propriedade="DataExpurgo"       formato="ddMMyyyy"    />
+      <Campo nome="codigoRegiaoVisa"    tipoDados="2"             tamanho="9"        propriedade="CodigoRegiaoVisa"  />
+      <Campo nome="codigoRegiaoMaster"  tipoDados="2"             tamanho="6"        propriedade="CodigoRegiaoMaster"/>
+      <Campo nome="listaRestritiva"     tipoDados="2"             tamanho="1"        propriedade="ListaRestritiva"   />
+      <Campo nome="pracaNegativacao"    tipoDados="2"             tamanho="24"       propriedade="PracaNegativacao"   />
+      <Campo nome="codigoBloqueioB2K"   tipoDados="2"             tamanho="2"        propriedade="CodigoBloqueioB2K" />
+      <Campo nome="motivoCancelamento"  tipoDados="1"             tamanho="3"        propriedade="MotivoCancelamento"/>
+      <Campo nome="motivoRoubo"         tipoDados="2"             tamanho="1"        propriedade="MotivoRoubo"       />
+      <Campo nome="codigoAcaoB2K"       tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoB2K"     />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB055S"        tipo="1"                                            >
+      <Campo nome="bloqueio"            tipoDados="1"             tamanho="3"        propriedade="Bloqueio"          />
+      <Campo nome="descricaoBloqueioV"  tipoDados="2"             tamanho="27"       propriedade="DescricaoBloqueioV"/>
+      <Campo nome="codigoBloqueio"      tipoDados="2"             tamanho="1"        propriedade="CodigoBloqueioV"    />
+      <Campo nome="cartaoFalsificado"   tipoDados="2"             tamanho="1"        propriedade="CartaoFalsificado" />
+      <Campo nome="codigoRazao"         tipoDados="2"             tamanho="1"        propriedade="CodigoRazao"       />
+      <Campo nome="codigoAcaoV"         tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoV"       />
+      <Campo nome="dataExpurgo"         tipoDados="3"             tamanho="8"        propriedade="DataExpurgo"       formato="ddMMyyyy"    />
+      <Campo nome="codigoRegiaoVisa"    tipoDados="2"             tamanho="9"        propriedade="CodigoRegiaoVisa"  />
+      <Campo nome="codigoRegiaoMaster"  tipoDados="2"             tamanho="6"        propriedade="CodigoRegiaoMaster"/>
+      <Campo nome="listaRestritiva"     tipoDados="2"             tamanho="1"        propriedade="ListaRestritiva"   />
+      <Campo nome="pracaNegativacao"    tipoDados="2"             tamanho="24"       propriedade="PracaNegativacao"   />
+      <Campo nome="codigoBloqueioB2K"   tipoDados="2"             tamanho="2"        propriedade="CodigoBloqueioB2K" />
+      <Campo nome="motivoCancelamento"  tipoDados="1"             tamanho="3"        propriedade="MotivoCancelamento"/>
+      <Campo nome="motivoRoubo"         tipoDados="2"             tamanho="1"        propriedade="MotivoRoubo"       />
+      <Campo nome="codigoAcaoB2K"       tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoB2K"     />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB056S"        tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="bloqueio"            tipoDados="1"             tamanho="3"        propriedade="Bloqueio"          />
+      <Campo nome="descricaoBloqueioV"  tipoDados="2"             tamanho="27"       propriedade="DescricaoBloqueioV"/>
+      <Campo nome="codigoBloqueio"      tipoDados="2"             tamanho="1"        propriedade="CodigoBloqueioV"    />
+      <Campo nome="cartaoFalsificado"   tipoDados="2"             tamanho="1"        propriedade="CartaoFalsificado" />
+      <Campo nome="codigoRazao"         tipoDados="2"             tamanho="1"        propriedade="CodigoRazao"       />
+      <Campo nome="codigoAcaoV"         tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoV"       />
+      <Campo nome="dataExpurgo"         tipoDados="3"             tamanho="8"        propriedade="DataExpurgo"       formato="ddMMyyyy"    />
+      <Campo nome="codigoRegiaoVisa"    tipoDados="2"             tamanho="9"        propriedade="CodigoRegiaoVisa"  />
+      <Campo nome="codigoRegiaoMaster"  tipoDados="2"             tamanho="6"        propriedade="CodigoRegiaoMaster"/>
+      <Campo nome="listaRestritiva"     tipoDados="2"             tamanho="1"        propriedade="ListaRestritiva"   />
+      <Campo nome="pracaNegativacao"    tipoDados="2"             tamanho="24"       propriedade="PracaNegativacao"   />
+      <Campo nome="codigoBloqueioB2K"   tipoDados="2"             tamanho="2"        propriedade="CodigoBloqueioB2K" />
+      <Campo nome="motivoCancelamento"  tipoDados="1"             tamanho="3"        propriedade="MotivoCancelamento"/>
+      <Campo nome="motivoRoubo"         tipoDados="2"             tamanho="1"        propriedade="MotivoRoubo"       />
+      <Campo nome="codigoAcaoB2K"       tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoB2K"     />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="bloqueio"            tipoDados="1"             tamanho="3"        propriedade="Bloqueio"          />
+      <Campo nome="descricaoBloqueioV"  tipoDados="2"             tamanho="27"       propriedade="DescricaoBloqueioV"/>
+      <Campo nome="codigoBloqueio"      tipoDados="2"             tamanho="1"        propriedade="CodigoBloqueioV"   />
+      <Campo nome="cartaoFalsificado"   tipoDados="2"             tamanho="1"        propriedade="CartaoFalsificado" />
+      <Campo nome="codigoRazao"         tipoDados="2"             tamanho="1"        propriedade="CodigoRazao"       />
+      <Campo nome="codigoAcaoV"         tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoV"       />
+      <Campo nome="dataExpurgo"         tipoDados="3"             tamanho="8"        propriedade="DataExpurgo"       formato="ddMMyyyy"    />
+      <Campo nome="codigoRegiaoVisa"    tipoDados="2"             tamanho="9"        propriedade="CodigoRegiaoVisa"  />
+      <Campo nome="codigoRegiaoMaster"  tipoDados="2"             tamanho="6"        propriedade="CodigoRegiaoMaster"/>
+      <Campo nome="listaRestritiva"     tipoDados="2"             tamanho="1"        propriedade="ListaRestritiva"   />
+      <Campo nome="pracaNegativacao"    tipoDados="2"             tamanho="24"       propriedade="PracaNegativacao"   />
+      <Campo nome="codigoBloqueioB2K"   tipoDados="2"             tamanho="2"        propriedade="CodigoBloqueioB2K" />
+      <Campo nome="motivoCancelamento"  tipoDados="1"             tamanho="3"        propriedade="MotivoCancelamento"/>
+      <Campo nome="motivoRoubo"         tipoDados="2"             tamanho="1"        propriedade="MotivoRoubo"       />
+      <Campo nome="codigoAcaoB2K"       tipoDados="2"             tamanho="2"        propriedade="CodigoAcaoB2K"     />
+    </Acao>
+  </CodigoBloqueio>
+
+  <FaixaCartaoGrupoOrgLogo>
+    <Acao nome="Incluir"                programa="ZROB047S"       tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="org"                 tipoDados="1"             tamanho="3"        propriedade="Org"               />
+      <Campo nome="logo"                tipoDados="1"             tamanho="3"        propriedade="Logo"              />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Consultar"              programa="ZROB049S"       tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="org"                 tipoDados="1"             tamanho="3"        propriedade="Org"               />
+      <Campo nome="logo"                tipoDados="1"             tamanho="3"        propriedade="Logo"              />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Alterar"                programa="ZROB048S"       tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="org"                 tipoDados="1"             tamanho="3"        propriedade="Org"               />
+      <Campo nome="logo"                tipoDados="1"             tamanho="3"        propriedade="Logo"              />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Excluir"                programa="ZROB050S"       tipo="1"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="org"                 tipoDados="1"             tamanho="3"        propriedade="Org"               />
+      <Campo nome="logo"                tipoDados="1"             tamanho="3"        propriedade="Logo"              />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Listar"                 programa="ZROB051S"       tipo="1"           registrosPorPagina="50"          >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="org"                 tipoDados="1"             tamanho="3"        propriedade="Org"               />
+      <Campo nome="logo"                tipoDados="1"             tamanho="3"        propriedade="Logo"              />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                            >
+      <Campo nome="sequencia"           tipoDados="1"             tamanho="5"        propriedade="Sequencia"         />
+      <Campo nome="grupo"               tipoDados="1"             tamanho="3"        propriedade="Grupo"             />
+      <Campo nome="org"                 tipoDados="1"             tamanho="3"        propriedade="Org"               />
+      <Campo nome="logo"                tipoDados="1"             tamanho="3"        propriedade="Logo"              />
+      <Campo nome="cartaoDe"            tipoDados="5"             tamanho="19"       propriedade="CartaoDe"          />
+      <Campo nome="cartaoAte"           tipoDados="5"             tamanho="19"       propriedade="CartaoAte"         />
+    </Acao>
+  </FaixaCartaoGrupoOrgLogo>
+
+  <Historico>
+    <Acao nome="Listar"                 programa="ZROB06XS"       tipo="1"          registrosPorPagina="100"         >
+      <Campo nome="logFile"             tipoDados="2"             tamanho="8"       propriedade="LogFile" />
+      <Campo nome="usuarioManutencao"   tipoDados="2"             tamanho="8"       propriedade="UsuarioManutencao" />
+      <Campo nome="dataManutencao"      tipoDados="3"             tamanho="8"       propriedade="DataManutencao"     formato="ddMMyyyy"     />
+      <Campo nome="horaManutencao"      tipoDados="4"             tamanho="6"       propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="label"               tipoDados="2"             tamanho="30"      propriedade="Label" />
+      <Campo nome="dName"               tipoDados="2"             tamanho="8"       propriedade="DName" />
+      <Campo nome="chave"               tipoDados="2"             tamanho="64"      propriedade="Chave" />
+      <Campo nome="transLog"            tipoDados="2"             tamanho="4"       propriedade="TransLog" />
+      <Campo nome="programaManuencao"   tipoDados="2"             tamanho="8"       propriedade="ProgramaManutencao" />
+      <Campo nome="operacao"            tipoDados="2"             tamanho="1"       propriedade="Operacao" />
+      <Campo nome="campo"               tipoDados="2"             tamanho="30"      propriedade="CampoCobol" />
+      <Campo nome="de"                  tipoDados="2"             tamanho="70"      propriedade="ValorAntigo" />
+      <Campo nome="para"                tipoDados="2"             tamanho="70"      propriedade="ValorNovo" />
+    </Acao>
+    <Acao nome="Retorno"                                          tipo="2"                                           >
+      <Campo nome="logFile"             tipoDados="2"             tamanho="8"       propriedade="LogFile" />
+      <Campo nome="usuarioManutencao"   tipoDados="2"             tamanho="8"       propriedade="UsuarioManutencao" />
+      <Campo nome="dataManutencao"      tipoDados="3"             tamanho="8"       propriedade="DataManutencao"     formato="ddMMyyyy"     />
+      <Campo nome="horaManutencao"      tipoDados="4"             tamanho="6"       propriedade="HoraManutencao"     formato="HHmmss"      />
+      <Campo nome="label"               tipoDados="2"             tamanho="30"      propriedade="Label" />
+      <Campo nome="dName"               tipoDados="2"             tamanho="8"       propriedade="DName" />
+      <Campo nome="chave"               tipoDados="2"             tamanho="64"      propriedade="Chave" />
+      <Campo nome="transLog"            tipoDados="2"             tamanho="4"       propriedade="TransLog" />
+      <Campo nome="programaManuencao"   tipoDados="2"             tamanho="8"       propriedade="ProgramaManutencao" />
+      <Campo nome="operacao"            tipoDados="2"             tamanho="1"       propriedade="Operacao" />
+      <Campo nome="campo"               tipoDados="2"             tamanho="30"      propriedade="CampoCobol" />
+      <Campo nome="de"                  tipoDados="2"             tamanho="70"      propriedade="ValorAntigo" />
+      <Campo nome="para"                tipoDados="2"             tamanho="70"      propriedade="ValorNovo" />
+    </Acao>
+  </Historico>
+</SRT>

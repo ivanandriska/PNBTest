@@ -1,0 +1,6 @@
+.nuget
+.vs
+bin
+lib
+obj
+packages

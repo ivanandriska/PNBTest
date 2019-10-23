@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TipoErro_Texto_APPLICATION_FAIL" xml:space="preserve">
+    <value>Application Error</value>
+  </data>
+  <data name="TipoErro_Texto_BUSINESS_FAIL" xml:space="preserve">
+    <value>Business Rule Error</value>
+  </data>
+  <data name="ProcessoFase_Texto_AUTMSGLOG_INSERT" xml:space="preserve">
+    <value>Authorization Message - DataBase Write</value>
+  </data>
+  <data name="ProcessoFase_Texto_SEPARACAO_REGS" xml:space="preserve">
+    <value>Message REGs Split</value>
+  </data>
+  <data name="ProcessoFase_Texto_GRUPO_ENQUADRAMENTO" xml:space="preserve">
+    <value>Search Group by Card Range</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_CLIENTE_QUEBRA" xml:space="preserve">
+    <value>Message - Customer - Get Data</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_CLIENTE_CONCENTRADOR_GRAVACAO" xml:space="preserve">
+    <value>Customer - DataBase Write</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_CONTA_QUEBRA" xml:space="preserve">
+    <value>Message - Account - Get Data</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_CONTA_CONCENTRADOR_GRAVACAO" xml:space="preserve">
+    <value>Account - DataBase Write</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_CARTAO_QUEBRA" xml:space="preserve">
+    <value>Message - Card - Get Data</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_CARTAO_CONCENTRADOR_GRAVACAO" xml:space="preserve">
+    <value>Card - DataBase Write</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERP_CARTAO_INTERP_INSERT" xml:space="preserve">
+    <value>Card Interpreter - Insert</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_TRANSACAO_QUEBRA" xml:space="preserve">
+    <value>Message - Transaction - Get Data</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_NEURAL_QUEBRA" xml:space="preserve">
+    <value>Message - Neural - Get Data</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_TRANSACAO_CONCENTRADOR_GRAVACAO" xml:space="preserve">
+    <value>Transaction - Concentrador Gravação</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_OBJ_AUTZMSG_MONTAGEM" xml:space="preserve">
+    <value>Assembly Object AutorizaçãoMensagem</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_ACIONAMENTO" xml:space="preserve">
+    <value>Interpreter - Start</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_REGRAS_ATIVAS_OBTER" xml:space="preserve">
+    <value>Interpreter - Active Rules - Get</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_EXEC_INICIO" xml:space="preserve">
+    <value>Interpreter Execution - Start</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_EXEC_REGRAS_GRUPO000" xml:space="preserve">
+    <value>Interpreter Execution - Rules of Group 000</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_EXEC_EXPRESSAO" xml:space="preserve">
+    <value>Interpreter Execution - Expression</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_EXEC_CRTREGI_PERSISTIR" xml:space="preserve">
+    <value>Interpreter Execution - Card Recorders Persistence</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_EXEC_TRACE_FLUSH" xml:space="preserve">
+    <value>Interpreter Execution - Trace Write</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERPRETADOR_TRACE_AUTOEXPURGO" xml:space="preserve">
+    <value>Interpreter Execution - Trace Auto Purge</value>
+  </data>
+  <data name="ProcessoFase_Texto_INDICADORES_PERFORMANCE" xml:space="preserve">
+    <value>Performance Indicator</value>
+  </data>
+  <data name="ProcessoFase_Texto_TRANSACAO_COMANDOONLINE_ACIONADO" xml:space="preserve">
+    <value>Transaction - Online Command executed</value>
+  </data>
+  <data name="ProcessoFase_Texto_REDES_NEURAIS_ATUALIZA" xml:space="preserve">
+    <value>Neural Network - Update</value>
+  </data>
+  <data name="ProcessoFase_Texto_INTERP_CARTAO_INTERP_UPDATE" xml:space="preserve">
+    <value>Card Interpreter - Update</value>
+  </data>
+  <data name="ProcessoFase_Texto_MENSAGEM_NEURAL_INSERT" xml:space="preserve">
+    <value>Message Neural - Insert</value>
+  </data>
+  <data name="ProcessoFase_Texto_AUTZMSGLOG_FLAGPROCESSADO_UPDATE" xml:space="preserve">
+    <value>Authorization Message - 'Flag Processado' updated</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_OBJ_AUTZMSG_MONTAGEM_MANUAL" xml:space="preserve">
+    <value>Simulation - Assembly Object AutorizaçãoMensagem</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_GRUPO_ENQUADRAMENTO" xml:space="preserve">
+    <value>Simulation - Search Group by Card Range</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERP_CARTAO_INTERP_INSERT" xml:space="preserve">
+    <value>Simulation - Card Interpreter - Insert</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_REGRAS_ATIVAS_OBTER" xml:space="preserve">
+    <value>Simulation - Interpreter - Active Rules - Get</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_EXEC_INICIO" xml:space="preserve">
+    <value>Simulation - Interpreter Execution - Start</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_EXEC_REGRAS_GRUPO000" xml:space="preserve">
+    <value>Simulation - Interpreter Execution - Rules of Group 000</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_EXEC_EXPRESSAO" xml:space="preserve">
+    <value>Simulation - Interpreter Execution - Expression</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_EXEC_CRTREGI_PERSIST" xml:space="preserve">
+    <value>Simulation - Interpreter Execution - Card Recorders Persistence</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_EXEC_TRACE_FLUSH" xml:space="preserve">
+    <value>Simulation - Interpreter Execution - Trace Write</value>
+  </data>
+  <data name="ProcessoFase_Texto_SIMUL_INTERPRETADOR_CARTAO_INTERP_UPDATE" xml:space="preserve">
+    <value>Simulation - Card Interpreter - Update</value>
+  </data>
+  <data name="ProcessoFase_Texto_IDENTIFICACAO_INTERFACES" xml:space="preserve">
+    <value>Interface Identification Received</value>
+  </data>
+</root>
