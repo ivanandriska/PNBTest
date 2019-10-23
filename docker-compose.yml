@@ -22,10 +22,10 @@ services:
       dockerfile: SMS.Api/Dockerfile
       target: final
 
-  eva.sms.servico.dispatcher:
-    image: eva/sms.servico.dispatcher
-    build:
-      context: .
-      dockerfile: SMS.Servico.Dispatcher/Dockerfile
-      target: final
+#  eva.sms.servico.dispatcher:
+#    image: eva/sms.servico.dispatcher
+#    build:
+#      context: .
+#      dockerfile: SMS.Servico.Dispatcher/Dockerfile
+#      target: final
 

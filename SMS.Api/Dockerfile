@@ -6,8 +6,6 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS publish
 WORKDIR /src
 COPY ./CaseBusiness/ CaseBusiness/
-COPY ./CaseBusiness/bin/Release/netcoreapp2.1/Voltage.SecureData.dll CaseBusiness/
-COPY ./CaseBusiness/bin/Release/netcoreapp2.1/Voltage.SecureData.Native.x64.dll CaseBusiness/
 RUN dotnet restore CaseBusiness/CaseBusiness.csproj
 WORKDIR /src/CaseBusiness
 RUN dotnet build CaseBusiness.csproj -f netcoreapp2.1 -c Release -o /app

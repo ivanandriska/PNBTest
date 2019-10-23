@@ -6,9 +6,6 @@
     <ProjectGuid>a4c94117-838e-435c-8ccf-cdac8c341730</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="case.sh" />
-    <None Include="docker-compose.class_sche_mens.deploy.yml" />
-    <None Include="docker-compose.lb_brm.deploy.yml" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
@@ -16,6 +13,5 @@
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
     <None Include="docker-compose.yml" />
-    <None Include="ProcedimentoDeploy.txt" />
   </ItemGroup>
 </Project>
